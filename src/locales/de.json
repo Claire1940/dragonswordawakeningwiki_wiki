@@ -1,11 +1,581 @@
 {
+  "seo": {
+    "home": {
+      "title": "DragonSword Awakening Wiki - Helden, Builds & Guides",
+      "description": "DragonSword Awakening Wiki bietet Heldenleitfäden, Builds, Kämpftipps, Durchsichten, Charaktere, Updates und alles, was Spieler für dieses anime-style Open-World-RPG benötigen.",
+      "keywords": "DragonSword Awakening, Steam, Helden, Builds, Durchsicht, RPG-Leitfaden",
+      "ogTitle": "DragonSword Awakening Wiki - Helden, Builds & Guides",
+      "ogDescription": "DragonSword Awakening Wiki bietet Heldenleitfäden, Builds, Kämpftipps, Durchsichten, Charaktere, Updates und alles, was Spieler für dieses anime-style Open-World-RPG benötigen.",
+      "twitterTitle": "DragonSword Awakening Wiki - Helden, Builds & Guides",
+      "twitterDescription": "DragonSword Awakening Wiki bietet Heldenleitfäden, Builds, Kämpftipps, Durchsichten, Charaktere und Updates für das anime-style Open-World-RPG auf Steam."
+    }
+  },
   "nav": {
-    "guide": "Guide",
-    "characters": "Characters",
-    "combat": "Combat",
-    "tierList": "Tier List",
-    "gameplay": "Gameplay",
+    "guide": "Leitfaden",
+    "characters": "Charaktere",
+    "combat": "Kampf",
+    "tierList": "Rangliste",
+    "gameplay": "Spielmechanik",
     "gacha": "Gacha",
-    "release": "Release"
+    "release": "Veröffentlichung"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Spiel auf Steam",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Thema wechseln",
+    "lightMode": "Hellmodus",
+    "darkMode": "Dunkelmodus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen"
+  },
+  "hero": {
+    "badge": "Anime Offene Welt Action-Rollenspiel",
+    "title": "DragonSword: Awakening Wiki",
+    "description": "DragonSword: Awakening ist ein anime-style Open-World-Action-RPG mit Tag-Team-Kämpfen, 19 einzigartigen Helden, Erkundung über das Kontinent von Orbis und eine Fantasy-Geschichte über das Erwecken des legendären Drachenschwertes.",
+    "getFreeCodesCTA": "Trailer ansehen",
+    "playOnSteamCTA": "Spiel auf Steam",
+    "stats": {
+      "stat1": {
+        "value": "19",
+        "label": "Verfügbare Helden"
+      },
+      "stat2": {
+        "value": "2026",
+        "label": "Veröffentlichungsjahr"
+      },
+      "stat3": {
+        "value": "PC",
+        "label": "Hauptplattform"
+      },
+      "stat4": {
+        "value": "Wöchentlich",
+        "label": "Aktualisierungsrate"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "DragonSword: Awakening Gameplay",
+    "description": "Meister das Tag-Team-Kampf mit 19 einzigartigen Helden, erkunde die offene Welt des Kontinents Orbis und entdecke eine Fantasy-Geschichte über das Erwecken des legendären Drachenschwerts in diesem Anime-Action-RPG auf Steam."
+  },
+  "tools": {
+    "title": "DragonSword Awakening",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Alles, was du brauchst, um Helden, Builds, Kampf und Erkundung in DragonSword: Awakening zu meistern",
+    "cards": [
+      {
+        "icon": "Kompass",
+        "title": "Anfängerguide",
+        "description": "Erste Schritte, Kampfgrundlagen und frühe Fortschritte"
+      },
+      {
+        "icon": "Benutzer",
+        "title": "Charaktere Guide",
+        "description": "Spieleelemente, Begleiter und Kampfrollen"
+      },
+      {
+        "icon": "Schwerter",
+        "title": "Kampfguide",
+        "description": "Tag-Team-Aktionen, Statusveränderungen und Combos"
+      },
+      {
+        "icon": "Karte",
+        "title": "Durchgang",
+        "description": "Geschichte und Erkundungsguide"
+      },
+      {
+        "icon": "Trophen",
+        "title": "Helden Rangliste",
+        "description": "Helden-Rangfolge nach Kampfwert und Teamkooperation"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Waffen und Builds",
+        "description": "Ausrüstungswahl und empfohlene Konfigurationen"
+      },
+      {
+        "icon": "CalendarDays",
+        "title": "VeröffentlichungsGuide",
+        "description": "Veröffentlichungsdetails, Plattformen und Spieleinformationen"
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Geheimnisse Guide",
+        "description": "Verborgene Entdeckungen und optionales Inhalt"
+      }
+    ]
+  },
+  "modules": {
+    "dragonswordBeginnerGuide": {
+      "eyebrow": "Anfängerguide",
+      "title": "DragonSword Awakening Anfängerguide",
+      "subtitle": "Lerne die grundlegenden Systeme, bevor du deine Reise durch Orbis beginnst. Verstehe Kampf, Helden, Erkundung und frühe Fortschritte.",
+      "intro": "Dieser Anfängerguide erklärt die empfohlenen ersten Schritte für neue Spieler, die DragonSword: Awakening betreten. Er behandelt die Kernsysteme des Action-RPGs, einschließlich des Tag-Team-Kampfs, Statusveränderungen, Heldenrekrutierung und Charakterentwicklung.",
+      "displayType": "steps",
+      "steps": [
+        {
+          "title": "Dein Abenteuer beginnen",
+          "description": "Beginne deine Reise, indem du die grundlegenden Kontrollen lernst, die Anfangsgebiete erkundest und eine bequeme Schwierigkeitsstufe wählst. Konzentriere dich darauf, das Bewegen, den Kampffluss und die handlungsorientierten Mechanismen des Spiels zu verstehen."
+        },
+        {
+          "title": "Kampfbasics",
+          "description": "Meister grundlegende Angriffe, defensive Maßnahmen und das Statusveränderungs-Tag-Team-System. Das Wechseln von Helden zum richtigen Zeitpunkt ermöglicht dir, stärkere Angriffsketten zu bilden und die Schwächen der Gegner auszunutzen."
+        },
+        {
+          "title": "Verständnis der Statusveränderungen",
+          "description": "Lerne, wie Statuseffekte Kämpfe beeinflussen und wie verschiedene Helden ihre Fähigkeiten kombinieren können. Die Anwendung von Statusveränderungen vor dem Wechsel der Charaktere ist ein wichtiger Bestandteil effektiven Kampfes."
+        },
+        {
+          "title": "Rekrutierung von Helden",
+          "description": "Baue dein Team durch das Freischalten von spielbaren Helden und Begleitern durch den Spielfortschritt auf. Experimentiere mit verschiedenen Partei-Kombinationen, um effektive Kampffunktionen zu finden."
+        },
+        {
+          "title": "Entdecke Orbis",
+          "description": "Entdecke die offene Welt des Kontinents Orbis, um Quests, Ressourcen, Feinde und verborgene Orte zu finden. Die Erkundung hilft dir, Materialien zu sammeln und deine Partei zu verbessern."
+        },
+        {
+          "title": "Fortschritt und Aufwertungen",
+          "description": "Werte Helden auf, verbessere Ausrüstung und stärke dein Team, da Herausforderungen härter werden. Regelmäßige Investitionen in deine Hauptpartei verbessern die allgemeine Leistung."
+        }
+      ]
+    },
+    "dragonswordCharactersGuide": {
+      "eyebrow": "Handbuch der Charaktere",
+      "title": "DragonSword Awakening Handbuch der Charaktere",
+      "subtitle": "Verstehe spielbare Helden, Begleiter und Kampffunktionen, um eine ausgewogene Partei zu erstellen.",
+      "intro": "DragonSword: Awakening verfügt über eine Liste spielbarer Helden und Begleiter, die durch das Spiel erworben werden können. Dieses Handbuch erläutert gängige Teamrollen und wie verschiedene Charaktersorten während der Kämpfe beitragen.",
+      "displayType": "Karten",
+      "cards": [
+        {
+          "title": "Lute",
+          "description": "Der junge Hauptcharakter und zentrale Held der Abenteuer. Lute repräsentiert die Reise des Spielers durch Orbis und dient als Schlüsselmitglied der Partei."
+        },
+        {
+          "title": "Militär-Begleiter",
+          "description": "Einzigartige Verbündete, die während des Abenteuers rekrutiert werden und verschiedene Kampfstile, Fähigkeiten und taktische Optionen für das Team building bieten."
+        },
+        {
+          "title": "Zauberer",
+          "description": "Magie-fokussierte Helden, die sich auf mächtige Fähigkeiten, Kampffeldkontrolle und das Anwenden von Statuseffekten auf Feinde spezialisiert haben."
+        },
+        {
+          "title": "Krieger-Tanks",
+          "description": "Robuste Frontkämpfer, die darauf ausgelegt sind, Schaden zu absorbieren, Verbündete zu schützen und die Kontrolle während schwierigen Begegnungen aufrechtzuerhalten."
+        },
+        {
+          "title": "Heiler-Unterstützer",
+          "description": "Unterstützungs-orientierte Helden, die die Mannschaft durch Wiederherstellungsfähigkeiten, Buffs und defensive Nutzen unterstützen."
+        },
+        {
+          "title": "Fernkämpfer DPS",
+          "description": "Fernkämpfer, die sicher aus der Ferne angreifen und konstanten Schaden gegen verschiedene Feinde verursachen."
+        }
+      ]
+    },
+    "dragonswordCombatGuide": {
+      "eyebrow": "Kampfhilfe",
+      "title": "DragonSword Awakening Kampfhilfe",
+      "subtitle": "Beherrsche das Tag-Team-Action, Statuseffekte, Combos und fortgeschrittene Kampfstrategien.",
+      "intro": "DragonSword: Awakening verwendet ein Action-RPG-Kampfsystem, das sich um Echtzeitkämpfe, Heldenaustausch und strategische Fähigkeitskombinationen dreht. Das Verständnis des Kampfsystems hilft Spielern, stärkere Feinde effizient zu besiegen.",
+      "displayType": "Karten",
+      "cards": [
+        {
+          "title": "Tag-Team-Austausch",
+          "description": "Wechsel zwischen Helden während des Kampfes, um kontinuierliche Angriffe zu erzeugen und strategische Kombinationen zu aktivieren. Die Timing der Charakteraustausche um Feindlücken ist entscheidend."
+        },
+        {
+          "title": "Statusbeschwerden",
+          "description": "Verwende verschiedene Fähigkeiten, um Statuseffekte anzuwenden und bessere Follow-up-Angriffe zu schaffen. Strategien basierend auf Status sind zentral für Team-Synergie."
+        },
+        {
+          "title": "Combos und Ketten",
+          "description": "Kombiniere normale Angriffe, Fähigkeiten und Charakteränderungen, um längere Angriffsketten zu erzeugen. Effektive Combos erhöhen den Schaden und die Kampfkontrolle."
+        },
+        {
+          "title": "Ausweichen und Parieren",
+          "description": "Vermeide Feindangriffe mit präziser Verteidigungszeit und schaffe Öffnungen für Gegenangriffe. Defensive Bewusstsein ist wichtig gegen mächtige Feinde."
+        },
+        {
+          "title": "Elementare Schwächen",
+          "description": "Verwende angemessene Fähigkeiten und Charakterauswahlen, um Feindschwächen auszunutzen. Anpassung deiner Mannschaft an verschiedene Gegner verbessert die Kampfeffizienz."
+        },
+        {
+          "title": "Ultimative Fähigkeiten",
+          "description": "Mächtige Fähigkeiten verursachen Ausbruchsschaden und bieten erhebliche Kampfvorteile. Das Sparen von ultimativen Fähigkeiten für wichtige Momente kann schwierige Kämpfe umkehren."
+        }
+      ]
+    },
+    "dragonswordWalkthrough": {
+      "eyebrow": "Durchgang",
+      "title": "DragonSword Awakening Durchgang",
+      "subtitle": "Folge der Hauptabenteuer von der Rückkehr des Drachens bis zur finalen Konfrontation.",
+      "intro": "Dieser Durchgang bietet eine strukturierte Übersicht über die erwartete Handlungsfortschritt in DragonSword: Awakening. Er hebt die wichtigsten Abenteuerstufen, Erkundungsziele und Meilensteine der Gruppenentwicklung hervor.",
+      "displayType": "Schritte",
+      "steps": [
+        {
+          "title": "Prolog: Der Drache kehrt zurück",
+          "description": "Beginne das Abenteuer, als die legendäre Drachenbedrohung nach Jahrzehnten des Friedens zurückkehrt. Lerne die Weltgeschichte und die Ereignisse, die Lutes Reise beginnen."
+        },
+        {
+          "title": "Beitritt zur Söldnergruppe",
+          "description": "Trete einer Söldnergruppe bei und treffe Verbündete, die wichtige Begleiter werden. Lerne die Grundlagen des Teamspiels und kampfbasierter Gruppenkämpfe."
+        },
+        {
+          "title": "Erste Quests und Orbis-Entdeckung",
+          "description": "Führe frühe Missionen aus, während du das Kontinent von Orbis erkundest. Entdecke Orte, sammle Ressourcen und gewöhne dich an die offene Welt."
+        },
+        {
+          "title": "Gruppierung bilden",
+          "description": "Erweitere deine Gruppe, indem du neue Helden und Begleiter durch Fortschritt erhältst. Baue eine ausgewogene Gruppe, die deinem bevorzugten Spielstil entspricht."
+        },
+        {
+          "title": "Wichtige Handlungsstränge",
+          "description": "Fortschreite durch wichtige narrativische Ereignisse, herausfordernde Kämpfe und Entdeckungen im Kontinent von Orbis. Fortsetze die Verbesserung deiner Helden, da die Feinde stärker werden."
+        },
+        {
+          "title": "Endspiel und Drachenkonfrontation",
+          "description": "Vorbereite deine stärkste Gruppe für die finalen Herausforderungen und konfrontiere die legendäre Drachenbedrohung. Verwende fortgeschrittene Kombattstrategien und optimierte Builds."
+        }
+      ]
+    },
+    "dragonswordHeroTierList": {
+      "eyebrow": "Heldenranglisten",
+      "title": "DragonSword Awakening Helden Rangliste",
+      "subtitle": "Richte spielbare Helden nach Kampfwert, Teamkooperation und Nützlichkeit in verschiedenen Kämpfen ein.",
+      "intro": "Diese Rangliste hilft Spielern zu verstehen, welche Helden und Begleiterrollen am effektivsten für die Erkundung, Bosskämpfe und gruppenbasierten Kämpfe sind. Ranglisten konzentrieren sich auf Schadensausgabe, Überlebensfähigkeit, Nützlichkeit und Kompatibilität mit dem Statuseffekt-Tag-Team-System.",
+      "displayType": "Ränge",
+      "tiers": [
+        {
+          "rank": "S-Rang",
+          "name": "Lute",
+          "description": "Der Hauptprotagonist und Kernkampffigur mit flexiblen Fähigkeiten, starker narrativer Bedeutung und hervorragender Synergie mit verschiedenen Teamkombinationen."
+        },
+        {
+          "rank": "S-Rang",
+          "name": "Drachenaffinitäts-Helden",
+          "description": "Höchststufe-Helden mit mächtigen Fähigkeiten und starkem Schadenspotenzial, besonders effektiv gegen schwierige Feinde und Hauptgegenstreitigkeiten."
+        },
+        {
+          "rank": "A-Rang",
+          "name": "Kriegsgefreite Begleiter",
+          "description": "Verlässliche Frontkämpfer mit hoher Widerstandsfähigkeit und konstanter Nahkampfpower während der Erkundung und Bosskämpfen."
+        },
+        {
+          "rank": "A-Rang",
+          "name": "Zauberer-Helden",
+          "description": "Kraftvolle Fernkampfschadenverursacher, die elementare Angriffe und nützliche Statuseffektanwendungen bereitstellen."
+        },
+        {
+          "rank": "B-Rang",
+          "name": "Unterstützungs-Helden",
+          "description": "Ausgewogene Charaktere, die die Teamüberlebensfähigkeit durch Heilen, Buffs und Kampfnützlichkeit verbessern."
+        },
+        {
+          "rank": "C-Rang",
+          "name": "Anfängerfreundliche Helden",
+          "description": "Zugängliche Charaktere mit einfachen Mechaniken, die während des frühen Fortschritts und beim Lernen der Kampfsysteme nützlich sind."
+        }
+      ]
+    },
+    "dragonswordWeaponsAndBuilds": {
+      "eyebrow": "Bauoptimierung",
+      "title": "DragonSword Awakening Waffen und Bauanleitungen",
+      "subtitle": "Entdecke empfohlene Waffenstile und Kampfeinstellungen für verschiedene Spielstile.",
+      "intro": "DragonSword Awakening bietet kampforientierte Kämpfe, bei denen die Wahl der Waffen, die Charakterrollen und die Teamkombinationen die Leistung beeinflussen. Diese Bausätze bieten Beispiele für Schaden, Verteidigung und kooperatives Gameplay.",
+      "displayType": "Karten",
+      "cards": [
+        {
+          "title": "Dragon Sword Bau",
+          "description": "Ein ausgewogener Nahkampfeinsatz, der sich auf Schwertangriffe, zuverlässige Combos und flexible Tag-Team-Umstellungen während der Kämpfe konzentriert."
+        },
+        {
+          "title": "Doppelklingenbau",
+          "description": "Ein schneller Angriffsstil, der sich auf Beweglichkeit, schnelle Schläge und das Ausnutzen von Feindlücken konzentriert."
+        },
+        {
+          "title": "Stabbau",
+          "description": "Ein auf Magie fokussierter Aufsatz, der sich um Fernkampfangriffe, elementare Fähigkeiten und das Anwenden von Statuseffekten dreht."
+        },
+        {
+          "title": "Panzerverteidigungsbau",
+          "description": "Eine defensive Konfiguration, die auf Überlebensfähigkeit, Widerstandsfähigkeit und das Schutz der Teamkameraden während schwerer Kämpfe priorisiert."
+        },
+        {
+          "title": "Glaskanone DPS-Bau",
+          "description": "Ein hohes Risiko verursachender Aufsatz, der die offensive Kraft für Spieler maximiert, die bevorzugen, aggressiv zu kämpfen."
+        },
+        {
+          "title": "Co-op Unterstützungsbau",
+          "description": "Ein auf das Team ausgerichtetes Setup, das sich auf Heilung, Buffs, Massenkontrolle und das Helfen von Verbündeten in kooperativen Inhalten konzentriert."
+        }
+      ]
+    },
+    "dragonswordReleaseGuide": {
+      "eyebrow": "Spielinformationen",
+      "title": "DragonSword Awakening Veröffentlichungsanleitung",
+      "subtitle": "Offizielle Veröffentlichungsdetails, Entwicklungsinformationen und verfügbare Funktionen.",
+      "intro": "Diese Veröffentlichungsanleitung zusammenfasst die wichtigsten Informationen über DragonSword: Awakening, einschließlich des Entwicklers, der Plattform, des Veröffentlichungsplans, der Technologie und der Verfügbarkeit des Spielverlaufs.",
+      "displayType": "Tabelle",
+      "rows": [
+        {
+          "label": "Plattform",
+          "value": "Steam PC-Veröffentlichung als Premium-Kaufen-und-Spielen-Aktions-RPG."
+        },
+        {
+          "label": "Entwickler",
+          "value": "Entwickelt von dem koreanischen Spielestudio HOUND13."
+        },
+        {
+          "label": "Veröffentlichungsdatum",
+          "value": "Globale Veröffentlichung geplant für den 23. Juli 2026."
+        },
+        {
+          "label": "Preismodell",
+          "value": "Premium-Kaufen-und-Spielen-Spiel mit einem erwarteten Preis von etwa 60 USD."
+        },
+        {
+          "label": "Motor",
+          "value": "Mit der Technologie von Unreal Engine 5 entwickelt."
+        },
+        {
+          "label": "Spielbare Helden",
+          "value": "Bietet 19 spielbare Helden und Begleiter, die durch Spielfortschritt erhältlich sind."
+        }
+      ]
+    },
+    "dragonswordSecretsGuide": {
+      "eyebrow": "Verborgene Entdeckungen",
+      "title": "DragonSword Awakening Geheimnisse Anleitung",
+      "subtitle": "Finden Sie optionale Entdeckungen, versteckte Belohnungen und Explorationsinhalte in Orbis.",
+      "intro": "Die offene Welt von DragonSword Awakening ermutigt die Erkundung jenseits der Hauptgeschichte. Diese Anleitung hebt die Arten von verstecktem Inhalt hervor, die Spieler während des Abschlusses von Quests und der Erkundung des Kontinents entdecken können.",
+      "displayType": "Karten",
+      "cards": [
+        {
+          "title": "Verborgene Begleiter",
+          "description": "Optionale Begleiterbegegnungen, die Spielern, die verschiedene Gebiete erkunden und zusätzliche Ziele erfüllen, Belohnungen bieten."
+        },
+        {
+          "title": "Geheime Gebiete in Orbis",
+          "description": "Verborgene Orte, die Erkundungsbelohnungen, spezielle Begegnungen und zusätzlichen Weltbaugehalt enthalten."
+        },
+        {
+          "title": "Seltene Waffen",
+          "description": "Besondere Ausrüstungsfunde, die einzigartige Kampfoptionen bieten und die Erkundung fördern."
+        },
+        {
+          "title": "Ostereier",
+          "description": "Optionale Bezüge, verborgene Interaktionen und von Entwicklern inspirierte Überraschungen throughout dem Spielwelt."
+        },
+        {
+          "title": "Legendengeschichten",
+          "description": "Sammelbare Geschichtsmaterialien, die die Geschichte der Drachen, Orbis und der Spielfiguren erweitern."
+        },
+        {
+          "title": "Optionale Bosse",
+          "description": "Mächtige verborgene Gegner, die erfahrene Spieler herausfordern und zusätzliche Belohnungen bieten."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "titleHighlight": "Alles, was Sie über DragonSword: Awakening wissen müssen",
+    "subtitle": "Ist DragonSword: Awakening ein Einzelspieler-Spiel?",
+    "questions": [
+      {
+        "question": "Ja. DragonSword: Awakening ist ein Einzelspieler-Anime-Action-RPG, das sich auf Geschichte, Erkundung und Tag-Team-Heldenkampf konzentriert.",
+        "answer": "Auf welchen Plattformen ist DragonSword: Awakening erhältlich?"
+      },
+      {
+        "question": "DragonSword: Awakening ist ein Premium-Kauf-spiel, das für PC auf Steam erscheint.",
+        "answer": "Wie viele spielbare Helden hat DragonSword: Awakening?"
+      },
+      {
+        "question": "DragonSword: Awakening bietet 19 spielbare Helden und Begleiter, die Sie während des Tag-Team-Kampfs rekrutieren und wechseln können.",
+        "answer": "Was ist das Tag-Team-Kampfsystem in DragonSword: Awakening?"
+      },
+      {
+        "question": "DragonSword: Awakening verwendet Echtzeit-Actionkampf, bei dem Sie zwischen Helden während des Kampfes wechseln, um Angriffe zu ketten, Statuseffekte anzuwenden und strategische Kombinationen auszulösen.",
+        "answer": "Ist DragonSword: Awakening ein offenes Weltspiel?"
+      },
+      {
+        "question": "Ja. DragonSword: Awakening ist ein offenes Welt-Action-RPG, das auf dem Kontinent Orbis spielt, mit Quests, Ressourcen, Gegnern und verborgenen Orten, die entdeckt werden können.",
+        "answer": "Wer hat DragonSword: Awakening entwickelt?"
+      },
+      {
+        "question": "DragonSword: Awakening wurde von HOUND13, einem koreanischen Spielestudio, unter Verwendung der Unreal Engine 5-Technologie entwickelt.",
+        "answer": "Bereit, DragonSword: Awakening zu spielen?"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Treten Sie der DragonSword: Awakening-Community auf Reddit und Steam bei, um Heldenleitfäden, Bautechtipps, Patchnotizen und Diskussionen zu finden!",
+    "description": "Treten Reddit bei",
+    "joinCommunity": "Spiele auf Steam",
+    "joinGame": "DragonSword Awakening Wiki"
+  },
+  "footer": {
+    "title": "Dein vollständiger Ressourcenzentrum für DragonSword: Awakening Heldenleitfäden, Baute, Ranglisten, Kampftipps, Durchsicht, Waffen und Bossstrategien.",
+    "description": "Ressourcen",
+    "resources": "Community",
+    "community": "Rechtliche Informationen",
+    "legal": "YouTube",
+    "discord": "X / Twitter",
+    "twitter": "Reddit",
+    "steamCommunity": "Steam",
+    "steamStore": "Über",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Urheberrecht",
+    "copyright": "© 2026 DragonSword Awakening Wiki. Keine Verbindung zu Hound13 Inc.",
+    "disclaimer": "Unoffizielle Fan-ressource-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "DragonSword Awakening Anleitungen",
+      "description": "Komplette DragonSword Awakening Anleitungen von Anfängergrundlagen bis zu fortgeschrittenen Hero Builds und Kampftaktiken für das anime-style Open-World-Action-RPG.",
+      "metaTitle": "DragonSword Awakening Guides - Von Anfänger bis Fortgeschrittene Strategien",
+      "metaDescription": "Komplette DragonSword Awakening Anleitungen, die Anfängertipps, Hero Builds, Kampftaktiken und Erkundungstaktiken für das meisternde anime-style Open-World-RPG umfassen.",
+      "categoryLabel": "SPIELANLEITUNGEN",
+      "whatIs": "Was sind Anleitungen?",
+      "whatIsDescription": "Komplette Anleitungen, die Gameplay-Mechaniken, Erkundungstaktiken und das Hero Builds-System in DragonSword Awakening abdecken. Lerne alles von deinen ersten Schritten im offenen Welt bis zu fortgeschrittenen Kampftechniken.",
+      "why": "Warum Anleitungen lesen?",
+      "whySteps": {
+        "step1Title": "Kerne Mechaniken lernen",
+        "step1Description": "Verstehe das Hero Builds-System, Kampfkontrollen und vermeide häufige Anfängerfehler",
+        "step2Title": "Schneller Fortschritt",
+        "step2Description": "Folge bewährten Wegen, um Charaktere freizuschalten, effizient zu leveln und im offenen Welt zu gedeihen",
+        "step3Title": "Strategien meistern",
+        "step3Description": "Entwickle fortgeschrittene Taktiken für die Erkundung, Team-Building und Endgame-Inhalte"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Anleitungen"
+    },
+    "characters": {
+      "title": "DragonSword Awakening Charaktere",
+      "description": "Alle spielbaren Charaktere und Helden in DragonSword Awakening, einschließlich ihrer Fähigkeiten, Rollen und wie man sie mit Destiny Einladungen freischaltet.",
+      "metaTitle": "DragonSword Awakening Charaktere - Alle Helden & Fähigkeiten",
+      "metaDescription": "Durchsuche jeden spielbaren Charakter in DragonSword Awakening. Lerne Heldenfähigkeiten, Rollen, Synergien und wie man sie mit Destiny Einladungen freischaltet.",
+      "categoryLabel": "CHARAKTERE",
+      "whatIs": "Was sind Charaktere?",
+      "whatIsDescription": "DragonSword Awakening verfügt über eine Liste von anime-Helden, jeder mit einzigartigen Fähigkeiten, Elementen und Kampfrollen. Charaktere werden durch das Gacha-System mit Destiny Einladungen freigeschaltet und bilden das Kernstück deiner Abenteuergruppe.",
+      "why": "Warum Charaktere studieren?",
+      "whySteps": {
+        "step1Title": "Den richtigen Team zusammenstellen",
+        "step1Description": "Passen Charakterrollen und Synergien zusammen, um mächtige Kampffraktionen zu bilden",
+        "step2Title": "Effizient freischalten",
+        "step2Description": "Verwende Destiny Einladungen weise auf Helden, die zu deiner Strategie passen",
+        "step3Title": "Potenzial maximieren",
+        "step3Description": "Verstehe die Fähigkeiten jedes Helden und Aufstiegspfade, um den meisten Wert zu erzielen"
+      },
+      "featured": "Empfohlene Helden",
+      "all": "Alle Charaktere"
+    },
+    "combat": {
+      "title": "DragonSword Awakening Kampfsystem",
+      "description": "DragonSword Awakening Kampfsystemanleitungen, die Klassen, Team-Builds, Combos und die besten Strategien für jeden Kampf im offenen Welt abdecken.",
+      "metaTitle": "DragonSword Awakening Kampfsystem - Klassen, Teams & Beste Builds",
+      "metaDescription": "Beherrsche den Kampfeinsatz von DragonSword Awakening mit Klassenguides, Teambuildstrategien, Charakterkombinationen und den besten Taktiken für jede Begegnung.",
+      "categoryLabel": "KAMPF",
+      "whatIs": "Was ist Kampfeinsatz?",
+      "whatIsDescription": "Kampfeinsatz in DragonSword Awakening ist ein Echtzeit-Action-RPG-System, bei dem die Heldenklassen, Teamkombination und Fähigkeitskombinationen den Sieg bestimmen. Das Aufbauen des richtigen Teams und das Verständnis der Klassendefinitionen ist entscheidend, um anspruchsvolle Inhalte zu bewältigen.",
+      "why": "Warum sich auf Kampfeinsatz konzentrieren?",
+      "whySteps": {
+        "step1Title": "Beste Teambuilds",
+        "step1Description": "Setze die stärkste Gruppe mit bewährten Klassendefinitionen und Charakterkombinationen zusammen",
+        "step2Title": "Klassendefinitionen beherrschen",
+        "step2Description": "Verstehe die Stärken jeder Klassendefinition und wie sie zu deinem Spielstil passen",
+        "step3Title": "Jede Schlacht gewinnen",
+        "step3Description": "Verwende Fähigkeitskombinationen und Positionierung, um Bosse zu besiegen und Inhalte zu bewältigen"
+      },
+      "featured": "Essentielle Kampfeinsatz-Guides",
+      "all": "Alle Kampfeinsatz-Guides"
+    },
+    "tier-list": {
+      "title": "DragonSword Awakening Rangliste",
+      "description": "Die DragonSword Awakening Rangliste listet die besten Charaktere und Helden für jeden Spielmodus auf, aktualisiert mit den stärksten Picks für dein Team.",
+      "metaTitle": "DragonSword Awakening Rangliste - Beste Charaktere Rangiert",
+      "metaDescription": "Finde die besten Charaktere in DragonSword Awakening mit unserer aktualisierten Rangliste. Richte Helden nach Stärke, Rolle und Teamwert ein, um die ultimative Gruppe zu bilden.",
+      "categoryLabel": "RANGLISTE",
+      "whatIs": "Was ist eine Rangliste?",
+      "whatIsDescription": "Die DragonSword Awakening Rangliste stuft jeden spielbaren Charakter nach Gesamtkraft, Nützlichkeit und Leistung über alle Spielmodi ein. Nutze sie, um zu priorisieren, welche Helden freizuschalten und mit deinen Destiny Einladungen zu bauen.",
+      "why": "Warum die Rangliste verwenden?",
+      "whySteps": {
+        "step1Title": "Priorisiere Freischaltungen",
+        "step1Description": "Konzentriere deine Destiny Einladungen auf die am höchsten eingestuften Helden zuerst",
+        "step2Title": "Optimiere dein Team",
+        "step2Description": "Baue um Top-Tier-Charaktere herum, um Inhalte schneller zu bewältigen",
+        "step3Title": "Bleibe auf dem Laufenden",
+        "step3Description": "Verfolge Rangschubs, wenn neue Charaktere und Balancierungsaktualisierungen eintreffen"
+      },
+      "featured": "Top-Rang-Charaktere",
+      "all": "Vollständige Rangliste"
+    },
+    "gameplay": {
+      "title": "DragonSword: Awakening Gameplay",
+      "description": "DragonSword Awakening Gameplay-Guides, die den offenen Welt, die Erkundung, Koop und Mehrspieler sowie die Kernmechaniken des anime-Action-RPGs abdecken.",
+      "metaTitle": "DragonSword Awakening Gameplay - Offene Welt & Koop Guide",
+      "metaDescription": "Entdecke DragonSword Awakening Gameplay einschließlich der offenen Welt, Koop-Mehrspieler, MMO-Funktionen und der Kernmechaniken des anime-Action-RPGs.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "Was ist Gameplay?",
+      "whatIsDescription": "DragonSword Awakening ist ein anime-Open-World-Action-RPG mit einer weiten Welt zum Erkunden, Echtzeitkampfeinsatz und sowohl Solo- als auch Koop-Mehrspielermodi. Das Verständnis der Kernspielmechanismen hilft dir, effizient voranzukommen und jedes System zu genießen.",
+      "why": "Warum Gameplay erkunden?",
+      "whySteps": {
+        "step1Title": "Entdecke die offene Welt",
+        "step1Description": "Entdecke Quests, Ressourcen und Geheimnisse, die über die Karte verteilt sind",
+        "step2Title": "Spiele mit Freunden",
+        "step2Description": "Team up in co-op und multiplayer für größere Herausforderungen",
+        "step3Title": "Meistere die Systeme",
+        "step3Description": "Lerne die Mechaniken, die den Fortschritt, das Crafting und das Kampfsystem vorantreiben"
+      },
+      "featured": "Vorgestellte Gameplay-Anleitungen",
+      "all": "Alle Gameplay-Anleitungen"
+    },
+    "gacha": {
+      "title": "DragonSword: Awakening Gacha",
+      "description": "DragonSword Awakening Gacha und Monetarisierungsanleitung, die erklärt, wie Destiny Einladungen funktionieren, Auszugsraten und ob das Spiel kostenlos spielbar ist.",
+      "metaTitle": "DragonSword Awakening Gacha - Destiny Einladungen & Kostenlos spielbar",
+      "metaDescription": "Verstehe die Mechaniken von DragonSword Awakening Gacha, Destiny Einladungen, Auszugsraten und Monetarisierung. Erfahre, ob das Spiel wirklich kostenlos spielbar ist.",
+      "categoryLabel": "GACHA",
+      "whatIs": "Was ist Gacha?",
+      "whatIsDescription": "DragonSword Awakening verwendet ein Gacha-System namens Destiny Einladungen, um neue Charaktere und Helden zu freischalten. Diese Anleitung erklärt, wie Züge funktionieren, die Raten und wie die kostenfreie Spielmechanik funktioniert, damit du weise ausgeben kannst.",
+      "why": "Warum das Verständnis von Gacha?",
+      "whySteps": {
+        "step1Title": "Spare weise",
+        "step1Description": "Wisse die Raten und den Wert, bevor du deine Destiny Einladungen verwendest",
+        "step2Title": "Kostenlos Spielen",
+        "step2Description": "Lerne, wie du Währung verdienen und Helden freischalten kannst, ohne auszugeben",
+        "step3Title": "Plane deine Züge",
+        "step3Description": "Erkenne Monetarisierungs Mustern und setze auf die Helden, die du willst"
+      },
+      "featured": "Wichtige Gacha-Anleitungen",
+      "all": "Alle Gacha-Anleitungen"
+    },
+    "release": {
+      "title": "DragonSword Awakening Veröffentlichung",
+      "description": "DragonSword Awakening Veröffentlichungsinfos zu dem Veröffentlichungsdatum, Preis, Plattformen wie Steam und PS5 und den vollständigen Launch Details für das anime RPG.",
+      "metaTitle": "DragonSword Awakening Veröffentlichungsdatum, Preis & Plattformen",
+      "metaDescription": "DragonSword Awakening Veröffentlichungsdatum, Preis, unterstützte Plattformen einschließlich Steam und PS5 und die vollständigen Launch Details für das anime Open-World RPG.",
+      "categoryLabel": "VERÖFFENTLICHUNGSINFO",
+      "whatIs": "Was ist die Veröffentlichung?",
+      "whatIsDescription": "DragonSword Awakening ist ein anime Open-World Action RPG, entwickelt von Hound13. Dieser Abschnitt behandelt das Veröffentlichungsdatum, den Launch-Preis und die unterstützten Plattformen, damit du weißt, wann und wo du spielen kannst.",
+      "why": "Warum Veröffentlichungsinfos überprüfen?",
+      "whySteps": {
+        "step1Title": "Wisse das Datum",
+        "step1Description": "Bleibe informiert über das offizielle Veröffentlichungsdatum und den Launch Zeitplan",
+        "step2Title": "Wähle deine Plattform",
+        "step2Description": "Erfahre, ob Steam, PS5 oder andere Konsolen unterstützt werden",
+        "step3Title": "Plane deinen Kauf",
+        "step3Description": "Vergleiche Preise und Editionen, um die richtige Version auszuwählen"
+      },
+      "featured": "Wichtige Veröffentlichungsinfos",
+      "all": "Alle Veröffentlichungsinfos"
+    }
   }
 }
