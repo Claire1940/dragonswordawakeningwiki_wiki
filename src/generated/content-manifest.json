@@ -26,6 +26,28 @@
         "file": "dragon-sword-awakening-theresia"
       }
     ],
+    "combat": [
+      {
+        "slug": "dragon-sword-awakening-best-team",
+        "file": "dragon-sword-awakening-best-team"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-classes",
+        "file": "dragon-sword-awakening-character-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-classes",
+        "file": "dragon-sword-awakening-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-combat-guide",
+        "file": "dragon-sword-awakening-combat-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-team-build",
+        "file": "dragon-sword-awakening-team-build"
+      }
+    ],
     "gacha": [
       {
         "slug": "dragon-sword-awakening-free-to-play",
@@ -324,6 +346,28 @@
         "file": "dragon-sword-awakening-theresia"
       }
     ],
+    "combat": [
+      {
+        "slug": "dragon-sword-awakening-best-team",
+        "file": "dragon-sword-awakening-best-team"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-classes",
+        "file": "dragon-sword-awakening-character-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-classes",
+        "file": "dragon-sword-awakening-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-combat-guide",
+        "file": "dragon-sword-awakening-combat-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-team-build",
+        "file": "dragon-sword-awakening-team-build"
+      }
+    ],
     "gacha": [
       {
         "slug": "dragon-sword-awakening-free-to-play",
@@ -460,6 +504,28 @@
       {
         "slug": "dragon-sword-awakening-theresia",
         "file": "dragon-sword-awakening-theresia"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "dragon-sword-awakening-best-team",
+        "file": "dragon-sword-awakening-best-team"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-classes",
+        "file": "dragon-sword-awakening-character-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-classes",
+        "file": "dragon-sword-awakening-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-combat-guide",
+        "file": "dragon-sword-awakening-combat-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-team-build",
+        "file": "dragon-sword-awakening-team-build"
       }
     ],
     "gacha": [
