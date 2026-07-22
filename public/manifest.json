@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "DragonSword Awakening Wiki - Heroes, Builds & Guides",
+  "short_name": "DragonSword",
+  "description": "DragonSword Awakening Wiki provides hero guides, builds, combat tips, walkthroughs, characters, updates and everything players need for this anime open world action RPG.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#2878ff",
+  "background_color": "#0b1020",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
