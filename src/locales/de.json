@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "characters": "Characters",
+    "combat": "Combat",
+    "tierList": "Tier List",
+    "gameplay": "Gameplay",
+    "gacha": "Gacha",
+    "release": "Release"
+  }
+}

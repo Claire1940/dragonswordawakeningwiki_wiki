@@ -1,1 +1,576 @@
-{}
+{
+  "de": {
+    "characters": [
+      {
+        "slug": "dragon-sword-awakening-all-characters",
+        "file": "dragon-sword-awakening-all-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-characters",
+        "file": "dragon-sword-awakening-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-heroes",
+        "file": "dragon-sword-awakening-heroes"
+      },
+      {
+        "slug": "dragon-sword-awakening-lute",
+        "file": "dragon-sword-awakening-lute"
+      },
+      {
+        "slug": "dragon-sword-awakening-playable-characters",
+        "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-theresia",
+        "file": "dragon-sword-awakening-theresia"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "dragon-sword-awakening-free-to-play",
+        "file": "dragon-sword-awakening-free-to-play"
+      },
+      {
+        "slug": "dragon-sword-awakening-gacha",
+        "file": "dragon-sword-awakening-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-is-it-gacha",
+        "file": "dragon-sword-awakening-is-it-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-monetization",
+        "file": "dragon-sword-awakening-monetization"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "dragon-sword-awakening-co-op",
+        "file": "dragon-sword-awakening-co-op"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo",
+        "file": "dragon-sword-awakening-demo"
+      },
+      {
+        "slug": "dragon-sword-awakening-gameplay",
+        "file": "dragon-sword-awakening-gameplay"
+      },
+      {
+        "slug": "dragon-sword-awakening-mmo",
+        "file": "dragon-sword-awakening-mmo"
+      },
+      {
+        "slug": "dragon-sword-awakening-multiplayer",
+        "file": "dragon-sword-awakening-multiplayer"
+      },
+      {
+        "slug": "dragon-sword-awakening-open-world",
+        "file": "dragon-sword-awakening-open-world"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-sword-awakening-beginner-guide",
+        "file": "dragon-sword-awakening-beginner-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-guide",
+        "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-review",
+        "file": "dragon-sword-awakening-review"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck-settings",
+        "file": "dragon-sword-awakening-steam-deck-settings"
+      },
+      {
+        "slug": "dragon-sword-awakening-tips",
+        "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-walkthrough",
+        "file": "dragon-sword-awakening-walkthrough"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-sword-awakening-console",
+        "file": "dragon-sword-awakening-console"
+      },
+      {
+        "slug": "dragon-sword-awakening-platforms",
+        "file": "dragon-sword-awakening-platforms"
+      },
+      {
+        "slug": "dragon-sword-awakening-price",
+        "file": "dragon-sword-awakening-price"
+      },
+      {
+        "slug": "dragon-sword-awakening-ps5",
+        "file": "dragon-sword-awakening-ps5"
+      },
+      {
+        "slug": "dragon-sword-awakening-release-date",
+        "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam",
+        "file": "dragon-sword-awakening-steam"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "dragon-sword-awakening-best-characters-tier-list",
+        "file": "dragon-sword-awakening-best-characters-tier-list"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-ranking",
+        "file": "dragon-sword-awakening-character-ranking"
+      },
+      {
+        "slug": "dragon-sword-awakening-tier-list",
+        "file": "dragon-sword-awakening-tier-list"
+      }
+    ]
+  },
+  "en": {
+    "characters": [
+      {
+        "slug": "dragon-sword-awakening-all-characters",
+        "file": "dragon-sword-awakening-all-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-characters",
+        "file": "dragon-sword-awakening-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-heroes",
+        "file": "dragon-sword-awakening-heroes"
+      },
+      {
+        "slug": "dragon-sword-awakening-lute",
+        "file": "dragon-sword-awakening-lute"
+      },
+      {
+        "slug": "dragon-sword-awakening-playable-characters",
+        "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-theresia",
+        "file": "dragon-sword-awakening-theresia"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "dragon-sword-awakening-best-team",
+        "file": "dragon-sword-awakening-best-team"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-classes",
+        "file": "dragon-sword-awakening-character-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-classes",
+        "file": "dragon-sword-awakening-classes"
+      },
+      {
+        "slug": "dragon-sword-awakening-combat-guide",
+        "file": "dragon-sword-awakening-combat-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-team-build",
+        "file": "dragon-sword-awakening-team-build"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "dragon-sword-awakening-free-to-play",
+        "file": "dragon-sword-awakening-free-to-play"
+      },
+      {
+        "slug": "dragon-sword-awakening-gacha",
+        "file": "dragon-sword-awakening-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-is-it-gacha",
+        "file": "dragon-sword-awakening-is-it-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-monetization",
+        "file": "dragon-sword-awakening-monetization"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "dragon-sword-awakening-co-op",
+        "file": "dragon-sword-awakening-co-op"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo",
+        "file": "dragon-sword-awakening-demo"
+      },
+      {
+        "slug": "dragon-sword-awakening-gameplay",
+        "file": "dragon-sword-awakening-gameplay"
+      },
+      {
+        "slug": "dragon-sword-awakening-mmo",
+        "file": "dragon-sword-awakening-mmo"
+      },
+      {
+        "slug": "dragon-sword-awakening-multiplayer",
+        "file": "dragon-sword-awakening-multiplayer"
+      },
+      {
+        "slug": "dragon-sword-awakening-open-world",
+        "file": "dragon-sword-awakening-open-world"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-sword-awakening-beginner-guide",
+        "file": "dragon-sword-awakening-beginner-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-guide",
+        "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-review",
+        "file": "dragon-sword-awakening-review"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck-settings",
+        "file": "dragon-sword-awakening-steam-deck-settings"
+      },
+      {
+        "slug": "dragon-sword-awakening-tips",
+        "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-walkthrough",
+        "file": "dragon-sword-awakening-walkthrough"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-sword-awakening-console",
+        "file": "dragon-sword-awakening-console"
+      },
+      {
+        "slug": "dragon-sword-awakening-platforms",
+        "file": "dragon-sword-awakening-platforms"
+      },
+      {
+        "slug": "dragon-sword-awakening-price",
+        "file": "dragon-sword-awakening-price"
+      },
+      {
+        "slug": "dragon-sword-awakening-ps5",
+        "file": "dragon-sword-awakening-ps5"
+      },
+      {
+        "slug": "dragon-sword-awakening-release-date",
+        "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam",
+        "file": "dragon-sword-awakening-steam"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "dragon-sword-awakening-best-characters-tier-list",
+        "file": "dragon-sword-awakening-best-characters-tier-list"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-ranking",
+        "file": "dragon-sword-awakening-character-ranking"
+      },
+      {
+        "slug": "dragon-sword-awakening-tier-list",
+        "file": "dragon-sword-awakening-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "dragon-sword-awakening-all-characters",
+        "file": "dragon-sword-awakening-all-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-characters",
+        "file": "dragon-sword-awakening-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-heroes",
+        "file": "dragon-sword-awakening-heroes"
+      },
+      {
+        "slug": "dragon-sword-awakening-lute",
+        "file": "dragon-sword-awakening-lute"
+      },
+      {
+        "slug": "dragon-sword-awakening-playable-characters",
+        "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-theresia",
+        "file": "dragon-sword-awakening-theresia"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "dragon-sword-awakening-free-to-play",
+        "file": "dragon-sword-awakening-free-to-play"
+      },
+      {
+        "slug": "dragon-sword-awakening-gacha",
+        "file": "dragon-sword-awakening-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-is-it-gacha",
+        "file": "dragon-sword-awakening-is-it-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-monetization",
+        "file": "dragon-sword-awakening-monetization"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "dragon-sword-awakening-co-op",
+        "file": "dragon-sword-awakening-co-op"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo",
+        "file": "dragon-sword-awakening-demo"
+      },
+      {
+        "slug": "dragon-sword-awakening-gameplay",
+        "file": "dragon-sword-awakening-gameplay"
+      },
+      {
+        "slug": "dragon-sword-awakening-mmo",
+        "file": "dragon-sword-awakening-mmo"
+      },
+      {
+        "slug": "dragon-sword-awakening-multiplayer",
+        "file": "dragon-sword-awakening-multiplayer"
+      },
+      {
+        "slug": "dragon-sword-awakening-open-world",
+        "file": "dragon-sword-awakening-open-world"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-sword-awakening-beginner-guide",
+        "file": "dragon-sword-awakening-beginner-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-guide",
+        "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-review",
+        "file": "dragon-sword-awakening-review"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck-settings",
+        "file": "dragon-sword-awakening-steam-deck-settings"
+      },
+      {
+        "slug": "dragon-sword-awakening-tips",
+        "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-walkthrough",
+        "file": "dragon-sword-awakening-walkthrough"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-sword-awakening-console",
+        "file": "dragon-sword-awakening-console"
+      },
+      {
+        "slug": "dragon-sword-awakening-platforms",
+        "file": "dragon-sword-awakening-platforms"
+      },
+      {
+        "slug": "dragon-sword-awakening-price",
+        "file": "dragon-sword-awakening-price"
+      },
+      {
+        "slug": "dragon-sword-awakening-ps5",
+        "file": "dragon-sword-awakening-ps5"
+      },
+      {
+        "slug": "dragon-sword-awakening-release-date",
+        "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam",
+        "file": "dragon-sword-awakening-steam"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "dragon-sword-awakening-best-characters-tier-list",
+        "file": "dragon-sword-awakening-best-characters-tier-list"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-ranking",
+        "file": "dragon-sword-awakening-character-ranking"
+      },
+      {
+        "slug": "dragon-sword-awakening-tier-list",
+        "file": "dragon-sword-awakening-tier-list"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "dragon-sword-awakening-all-characters",
+        "file": "dragon-sword-awakening-all-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-characters",
+        "file": "dragon-sword-awakening-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-heroes",
+        "file": "dragon-sword-awakening-heroes"
+      },
+      {
+        "slug": "dragon-sword-awakening-lute",
+        "file": "dragon-sword-awakening-lute"
+      },
+      {
+        "slug": "dragon-sword-awakening-playable-characters",
+        "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-theresia",
+        "file": "dragon-sword-awakening-theresia"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "dragon-sword-awakening-free-to-play",
+        "file": "dragon-sword-awakening-free-to-play"
+      },
+      {
+        "slug": "dragon-sword-awakening-gacha",
+        "file": "dragon-sword-awakening-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-is-it-gacha",
+        "file": "dragon-sword-awakening-is-it-gacha"
+      },
+      {
+        "slug": "dragon-sword-awakening-monetization",
+        "file": "dragon-sword-awakening-monetization"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "dragon-sword-awakening-co-op",
+        "file": "dragon-sword-awakening-co-op"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo",
+        "file": "dragon-sword-awakening-demo"
+      },
+      {
+        "slug": "dragon-sword-awakening-gameplay",
+        "file": "dragon-sword-awakening-gameplay"
+      },
+      {
+        "slug": "dragon-sword-awakening-mmo",
+        "file": "dragon-sword-awakening-mmo"
+      },
+      {
+        "slug": "dragon-sword-awakening-multiplayer",
+        "file": "dragon-sword-awakening-multiplayer"
+      },
+      {
+        "slug": "dragon-sword-awakening-open-world",
+        "file": "dragon-sword-awakening-open-world"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-sword-awakening-beginner-guide",
+        "file": "dragon-sword-awakening-beginner-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-guide",
+        "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-review",
+        "file": "dragon-sword-awakening-review"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck-settings",
+        "file": "dragon-sword-awakening-steam-deck-settings"
+      },
+      {
+        "slug": "dragon-sword-awakening-tips",
+        "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-walkthrough",
+        "file": "dragon-sword-awakening-walkthrough"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-sword-awakening-console",
+        "file": "dragon-sword-awakening-console"
+      },
+      {
+        "slug": "dragon-sword-awakening-platforms",
+        "file": "dragon-sword-awakening-platforms"
+      },
+      {
+        "slug": "dragon-sword-awakening-price",
+        "file": "dragon-sword-awakening-price"
+      },
+      {
+        "slug": "dragon-sword-awakening-ps5",
+        "file": "dragon-sword-awakening-ps5"
+      },
+      {
+        "slug": "dragon-sword-awakening-release-date",
+        "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam",
+        "file": "dragon-sword-awakening-steam"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "dragon-sword-awakening-best-characters-tier-list",
+        "file": "dragon-sword-awakening-best-characters-tier-list"
+      },
+      {
+        "slug": "dragon-sword-awakening-character-ranking",
+        "file": "dragon-sword-awakening-character-ranking"
+      },
+      {
+        "slug": "dragon-sword-awakening-tier-list",
+        "file": "dragon-sword-awakening-tier-list"
+      }
+    ]
+  }
+}

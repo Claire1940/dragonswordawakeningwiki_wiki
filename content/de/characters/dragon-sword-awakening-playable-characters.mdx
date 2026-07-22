@@ -1,0 +1,99 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "DragonSword: Awakening - Handbuch der spielbaren Charaktere",
+  description: "Entdecke die besten Charaktere in DragonSword: Awakening, einschließlich Tipps und Tricks für jeden.",
+  category: "Handbuch",
+  image: "https://placehold.co/800x400/059669/fff?text=DragonSword%3A%20Awakening%20Characters",
+  date: "2026-07-22",
+  author: "DragonSword: Awakening Wiki Team"
+}
+
+<Callout type="info" title="Kurzübersicht">
+- **Hauptwort**: Spielbare Charaktere von DragonSword: Awakening
+- **Top-Charaktere**: Charlotte, Roxxy, Tracey, Donna, Scion
+- **Freischaltungstipps**: Priorisiere frühe Freischaltung von hochstufigen Charakteren
+- **Kampftaktik**: Beherrsche das Skill-Swap-System für verbesserte Teamarbeit
+- **Rollenbalance**: Stelle sicher, dass die Teamzusammensetzung vielseitig ist, um optimales Gameplay zu gewährleisten
+</Callout>
+
+<Section icon={Map} title="Einführung in die spielbaren Charaktere">
+Das Spiel DragonSword: Awakening bietet eine Vielzahl von Charakteren mit einzigartigen Fähigkeiten und Spielstilen. Die Auswahl der richtigen Charaktere ist entscheidend für ein erfolgreiches Spielvergnügen.
+</Section>
+
+<Section icon={Swords} title="Handbuch der Top-Charaktere">
+<Callout type="warning" title="Priorität der Charakterfreischaltung">
+Freischalte hochstufige Charaktere wie Charlotte, Roxxy und Tracey früh im Spiel, um einen Wettbewerbsvorteil zu erlangen.
+</Callout>
+
+<Callout type="info" title="Charlotte - Die Dreifache Bedrohung">
+Charlotte ist ein hochstufiger Charakter mit der Fähigkeit, mehrere Statuseffekte anzuwenden. Ihre Fähigkeiten umfassen Unsichtbarkeit und giftige Pfeile, was sie zu einer vielseitigen Wahl macht.
+</Callout>
+
+<Callout type="tip" title="Roxxy - Die Schützin">
+Roxxy ist ein hochstufiger Schützin mit einem Fokus auf Blutungseffekten. Ihre Fähigkeiten, einschließlich "Roter Spiral" und "Blutregen", machen sie zu einer hervorragenden Wahl für diejenigen, die fernkampfbezogene Kämpfe genießen.
+</Callout>
+
+<Callout type="info" title="Tracey - Die Kettenwürgerin">
+Tracey ist ein hochstufiger Charakter mit einer mächtigen Kettenangriff, der eine Menge kontrollieren kann. Ihre Fähigkeiten, "Heiligen Schutz" und " göttliches Urteil", machen sie zu einer starken Wahl sowohl für Einzeltargets als auch für Gruppen.
+</Callout>
+
+<Callout type="info" title="Donna - Die Beschwörerin">
+Donna ist eine hochstufige Beschwörerin, die sich auf Einfrieren spezialisiert. Ihre Fähigkeit, einen riesigen Eiskoloss, Chocolate, zu beschwören, macht sie zu einer mächtigen Ergänzung für jedes Team.
+</Callout>
+
+<Callout type="info" title="Scion - Der Elektro-Hüter">
+Scion ist ein mittlerer Charakter, der sich auf das Elektroizitieren und Betäuben von Feinden spezialisiert. Seine Fähigkeiten, "Heiliger Impact" und "Heiliger Zerschlag", machen ihn zu einer soliden Wahl für diejenigen, die Teamunterstützung hinzufügen möchten.
+</Callout>
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Freischaltungshandbuch">
+<Steps>
+  <Step num="1" title="Erste Einrichtung">
+    Beende den initialen Tutorial und sammle die erforderlichen Gegenstände.
+  </Step>
+  <Step num="2" title="Freischaltung von Charakteren">
+    Verwende die Schicksalsladung, um Charaktere während des Spiels zu freischalten.
+  </Step>
+  <Step num="3" title="Charakterausbauten">
+    Passen Sie die Fähigkeiten und Ausrüstung jedes Charakters an, um Ihrem Spielstil zu entsprechen.
+  </Step>
+  <Step num="4" title="Teamzusammensetzung">
+    Erstelle ein ausgewogenes Team mit Charakteren, die die Fähigkeiten der anderen ergänzen.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Charakterrangliste">
+Hier ist eine Zusammenfassung der Charakterranglisten basierend auf ihren Stärken und Spielstilen:
+
+| Charakter | Rang | Bemerkungen |
+|-----------|---------|-------|
+| Charlotte | ★★★★★ | Mehrfacheffektspezialist |
+| Roxxy | ★★★★★ | Schützin mit Blutung |
+| Tracey | ★★★★ | Massenkontrolle und Betäuben |
+| Donna | ★★★★ | Starke Beschwörerin |
+| Scion | ★★★ | Teamunterstützung |
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+<FAQ items={[
+  {
+    question: "Wie kann ich neue Charaktere freischalten?",
+    answer: "Freischalte neue Charaktere, indem du die Schicksalsladung während des Spiels verwendest."
+  },
+  {
+    question: "Welcher Charakter ist am besten für Anfänger geeignet?",
+    answer: "Charlotte ist eine hervorragende Wahl für Anfänger aufgrund ihrer vielseitigen Fähigkeiten."
+  },
+  {
+    question: "Kann ich meine Charakterklasse nach der Freischaltung ändern?",
+    answer: "Nein, du kannst deine Charakterklasse nach der Freischaltung nicht ändern."
+  }
+]} />
+</Section>

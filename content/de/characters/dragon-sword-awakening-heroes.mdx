@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist, FAQ } from '@/components/mdx/Checklist'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "DragonSword: Awakening - Helden Rangliste & Tipps",
+  description: "Entdecke die besten Helden in DragonSword: Awakening, ihre Ränge und wichtige Tipps, um im Spiel hervorragend zu performen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=DragonSword:%20Awakening",
+  date: "2026-07-22",
+  author: "DragonSword: Awakening Wiki Team"
+}
+
+<Callout type="info" title="Kurzguide">
+- **Hauptwort**: DragonSword: Awakening Helden Rangliste
+- **Schlüsselmechanik**: Freischalten und spielen von Helden
+- **Beste Strategie**: Priorisiere Helden mit starker Synergie
+- **Wichtiger Tipp**: Experimentiere mit verschiedenen Kombinationen, um deinen Favoriten zu finden
+- **Top-Wahl**: Helden der hohen Ränge wie Charlotte, Roksi und Tracey
+</Callout>
+
+<Section icon={Map} title="Helden Rangliste">
+
+<CardGrid cols={3}>
+  <Card title="Hohe Rangliste">
+    - Charlotte - Vielseitig mit Gift- und Unsichtbarkeitsfähigkeiten
+    - Roksi - Ausgezeichneter Fernkämpfer mit Blutungseffekten
+    - Tracey - Aggressive Kettenkämpfer mit Betäubungsfähigkeiten
+    - Donna - Starke Beschwörerin mit eisbasierten Fähigkeiten
+  </Card>
+  <Card title="Mittlere Rangliste">
+    - Alex - Verteidigungsfokussiert mit Schild- und Bash-Angriffen
+    - Elin - Langer Speerkämpfer mit mächtigen Fernangriffen
+    - Karin - Zuverlässige Magierin mit Feuereigenschaften
+    - Rena - Mächtige Luftschützerin mit Drachen- und Windfähigkeiten
+  </Card>
+  <Card title="Niedrige Rangliste">
+    - Scion - Fernkämpfer mit elektrischen und Betäubungseffekten
+    - Tart - Elektrischer Magier mit moderater Heilung
+    - Astaria - Bogenschützin mit Flächenbeschädigung und Turmmodus
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Freischalten von Helden">
+
+<Steps>
+  <Step num="1" title="Erhalte Einladung">
+    Freischalte Helden, indem du durch Hauptmissionen Destiny Einladungen sammelst.
+  </Step>
+  <Step num="2" title="Menü aufrufen">
+    Gehe zum Sammlungs-Menü, um verfügbare Helden anzuzeigen.
+  </Step>
+  <Step num="3" title="Helden auswählen">
+  Wähle einen Helden aus der Liste aus und klicke darauf, um ihn freizuschalten.
+  </Step>
+  <Step num="4" title="Fähigkeiten ausrüsten">
+    Rüste Fähigkeiten aus, um den Spielstil deines Helden anzupassen.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Helden Leistungsaufgabenliste">
+
+<Checklist
+  id="heroes-performance"
+  title="Wichtige Leistungskennzahlen:"
+  items={[
+    "Gesundheit und Schadenspotential",
+    "Spezialfähigkeiten und Reichweite",
+    "Synergie mit anderen Helden",
+    "Beweglichkeit und Nützlichkeit",
+    "Verteidigungsfähigkeiten"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie viele Helden kann ich in DragonSword: Awakening freischalten?",
+    answer: "Du kannst mehrere Helden durch die Hauptmissionskette und andere Aktivitäten freischalten."
+  },
+  {
+    question: "Kann ich Helden vor dem Freischalten ansehen?",
+    answer: "Leider ist noch keine Vorschaufunktion verfügbar. Es gibt jedoch Leitfäden und Community-Ranglisten, um dir bei der Entscheidungsfindung zu helfen."
+  },
+  {
+    question: "Welche Helden sind für Anfänger am besten geeignet?",
+    answer: "Anfänger sollten mit Helden beginnen, die freundlich für Anfänger sind und gute Basistatistiken und Fähigkeiten haben."
+  }
+]} />
+
+</Section>

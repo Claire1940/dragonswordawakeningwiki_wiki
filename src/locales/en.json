@@ -10,7 +10,15 @@
       "twitterDescription": "DragonSword Awakening Wiki provides hero guides, builds, combat tips, walkthroughs, characters, and updates for the anime open world RPG on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "characters": "Characters",
+    "combat": "Combat",
+    "tierList": "Tier List",
+    "gameplay": "Gameplay",
+    "gacha": "Gacha",
+    "release": "Release"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -429,125 +437,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "DragonSword Awakening Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Hero Builds strategies. Master survival and crafting.",
+      "description": "Complete DragonSword Awakening guides from beginner basics to advanced Hero Builds and combat strategies for the anime open-world action RPG.",
       "metaTitle": "DragonSword Awakening Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete DragonSword Awakening guides covering beginner tips, Hero Builds system, survival strategies, and expert tactics for mastering the fantasy open world.",
+      "metaDescription": "Complete DragonSword Awakening guides covering beginner tips, Hero Builds, combat strategies, and exploration tactics for mastering the anime open world RPG.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Hero Builds crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, exploration strategies, and the Hero Builds system in DragonSword Awakening. Learn everything from your first steps in the open world to advanced combat techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Hero Builds system and avoid common beginner mistakes",
+        "step1Description": "Understand the Hero Builds system, combat controls, and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the fantasy world",
+        "step2Description": "Follow proven paths to unlock characters, level up efficiently, and thrive in the open world",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for exploration, team building, and endgame content"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "DragonSword Awakening Builds",
-      "description": "Master the Hero Builds fusion system with abilities mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "DragonSword Awakening Builds - Hero Builds System & Recipes",
-      "metaDescription": "Master DragonSword Awakening Hero Builds crafting system. Learn abilities mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Hero Builds system is a unique abilities-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "characters": {
+      "title": "DragonSword Awakening Characters",
+      "description": "All playable characters and heroes in DragonSword Awakening, including their abilities, roles, and how to unlock them with Destiny Invitations.",
+      "metaTitle": "DragonSword Awakening Characters - All Heroes & Abilities",
+      "metaDescription": "Browse every playable character in DragonSword Awakening. Learn hero abilities, roles, synergies, and how to unlock them with Destiny Invitations.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "DragonSword Awakening features a roster of anime heroes, each with unique abilities, elements, and combat roles. Characters are unlocked through the gacha system using Destiny Invitations and form the core of your adventure party.",
+      "why": "Why study characters?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item abilities combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Build the Right Team",
+        "step1Description": "Match character roles and synergies to create powerful combat parties",
+        "step2Title": "Unlock Efficiently",
+        "step2Description": "Spend Destiny Invitations wisely on heroes that fit your strategy",
+        "step3Title": "Maximize Potential",
+        "step3Description": "Understand each hero abilities and ascension paths to get the most value"
       },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "featured": "Featured Heroes",
+      "all": "All Characters"
     },
-    "items": {
-      "title": "DragonSword Awakening Weapons",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "DragonSword Awakening Weapons - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for DragonSword Awakening including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "combat": {
+      "title": "DragonSword Awakening Combat",
+      "description": "DragonSword Awakening combat guides covering classes, team builds, combos, and the best strategies for every battle across the open world.",
+      "metaTitle": "DragonSword Awakening Combat - Classes, Teams & Best Builds",
+      "metaDescription": "Master DragonSword Awakening combat with class guides, team build strategies, character synergies, and the best tactics for every encounter.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "What is Combat?",
+      "whatIsDescription": "Combat in DragonSword Awakening is a real-time action RPG system where hero classes, team composition, and ability combos determine victory. Building the right team and understanding class roles is essential for clearing challenging content.",
+      "why": "Why focus on combat?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Hero Builds",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Best Team Builds",
+        "step1Description": "Assemble the strongest party with proven class and character combinations",
+        "step2Title": "Master Classes",
+        "step2Description": "Understand each class strengths and how they fit your playstyle",
+        "step3Title": "Win Every Fight",
+        "step3Description": "Use ability combos and positioning to defeat bosses and clear content"
       },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+      "featured": "Essential Combat Guides",
+      "all": "All Combat Guides"
     },
-    "regions": {
-      "title": "DragonSword Awakening Regions",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each region.",
-      "metaTitle": "DragonSword Awakening Regions - World Regions & Exploration",
-      "metaDescription": "Explore DragonSword Awakening regions including Orbis Landmarks, Hidden Regions, and fantasy regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Regions?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore regions?",
+    "tier-list": {
+      "title": "DragonSword Awakening Tier List",
+      "description": "DragonSword Awakening tier list ranking the best characters and heroes for every game mode, updated with the strongest picks for your team.",
+      "metaTitle": "DragonSword Awakening Tier List - Best Characters Ranked",
+      "metaDescription": "Find the best characters in DragonSword Awakening with our updated tier list. Rank heroes by strength, roles, and team value to build the ultimate party.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is a Tier List?",
+      "whatIsDescription": "The DragonSword Awakening tier list ranks every playable character by overall strength, utility, and performance across game modes. Use it to prioritize which heroes to unlock and build with your Destiny Invitations.",
+      "why": "Why use the tier list?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and abilities specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each region type"
+        "step1Title": "Prioritize Unlocks",
+        "step1Description": "Focus your Destiny Invitations on the highest-ranked heroes first",
+        "step2Title": "Optimize Your Team",
+        "step2Description": "Build around top-tier characters to clear content faster",
+        "step3Title": "Stay Current",
+        "step3Description": "Track ranking shifts as new characters and balance updates arrive"
       },
-      "featured": "Featured & Essential",
-      "all": "All Regions"
+      "featured": "Top Ranked Characters",
+      "all": "Full Tier List"
     },
-    "building": {
-      "title": "DragonSword Awakening Bases",
-      "description": "Master Party Bases personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "DragonSword Awakening Bases - Party Bases & Base Construction",
-      "metaDescription": "Master DragonSword Awakening building with Party Bases personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Party Bases personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the fantasy world.",
-      "why": "Why build bases?",
+    "gameplay": {
+      "title": "DragonSword Awakening Gameplay",
+      "description": "DragonSword Awakening gameplay guides covering the open world, exploration, co-op, multiplayer, and core mechanics of the anime action RPG.",
+      "metaTitle": "DragonSword Awakening Gameplay - Open World & Co-op Guide",
+      "metaDescription": "Explore DragonSword Awakening gameplay including the open world, co-op multiplayer, MMO features, and core mechanics of the anime action RPG.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is the Gameplay?",
+      "whatIsDescription": "DragonSword Awakening is an anime open-world action RPG featuring a vast world to explore, real-time combat, and both solo and co-op multiplayer modes. Understanding the core gameplay loops helps you progress efficiently and enjoy every system.",
+      "why": "Why explore gameplay?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Party Bases",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Explore the Open World",
+        "step1Description": "Discover quests, resources, and secrets spread across the map",
+        "step2Title": "Play with Friends",
+        "step2Description": "Team up in co-op and multiplayer for greater challenges",
+        "step3Title": "Master the Systems",
+        "step3Description": "Learn the mechanics that drive progression, crafting, and combat"
       },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "featured": "Featured Gameplay Guides",
+      "all": "All Gameplay Guides"
     },
-    "support": {
-      "title": "DragonSword Awakening Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "DragonSword Awakening Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for DragonSword Awakening including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "gacha": {
+      "title": "DragonSword Awakening Gacha",
+      "description": "DragonSword Awakening gacha and monetization guide covering how Destiny Invitations work, pull rates, and whether the game is free to play.",
+      "metaTitle": "DragonSword Awakening Gacha - Destiny Invitations & Free to Play",
+      "metaDescription": "Understand DragonSword Awakening gacha mechanics, Destiny Invitations, pull rates, and monetization. Learn whether the game is truly free to play.",
+      "categoryLabel": "GACHA",
+      "whatIs": "What is the Gacha?",
+      "whatIsDescription": "DragonSword Awakening uses a gacha system called Destiny Invitations to unlock new characters and heroes. This guide explains how pulls work, the rates, and how the free-to-play economy functions so you can spend wisely.",
+      "why": "Why understand gacha?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Spend Wisely",
+        "step1Description": "Know the rates and value before using your Destiny Invitations",
+        "step2Title": "Play for Free",
+        "step2Description": "Learn how to earn currency and unlock heroes without spending",
+        "step3Title": "Plan Your Pulls",
+        "step3Description": "Recognize monetization patterns and target the heroes you want"
       },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "featured": "Essential Gacha Guides",
+      "all": "All Gacha Guides"
+    },
+    "release": {
+      "title": "DragonSword Awakening Release",
+      "description": "DragonSword Awakening release info covering the release date, price, platforms like Steam and PS5, and full launch details for the anime RPG.",
+      "metaTitle": "DragonSword Awakening Release Date, Price & Platforms",
+      "metaDescription": "DragonSword Awakening release date, price, supported platforms including Steam and PS5, and full launch details for the anime open-world RPG.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "DragonSword Awakening is an anime open-world action RPG developed by Hound13. This section covers the release date, launch price, and supported platforms so you know exactly when and where to play.",
+      "why": "Why check release info?",
+      "whySteps": {
+        "step1Title": "Know the Date",
+        "step1Description": "Stay informed on the official release date and launch schedule",
+        "step2Title": "Pick Your Platform",
+        "step2Description": "Find out whether Steam, PS5, or other consoles are supported",
+        "step3Title": "Plan Your Purchase",
+        "step3Description": "Compare pricing and editions to choose the right version"
+      },
+      "featured": "Essential Release Info",
+      "all": "All Release Info"
     }
   }
 }

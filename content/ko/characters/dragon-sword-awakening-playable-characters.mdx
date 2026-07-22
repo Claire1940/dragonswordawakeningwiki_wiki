@@ -1,0 +1,99 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout, YouTubeEmbed } from '@/components/mdx';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+
+export const metadata = {
+  title: "드래곤소드: 어웨이크닝 - 플레이어블 캐릭터 가이드",
+  description: "드래곤소드: 어웨이크닝에서 가장 좋은 캐릭터를 발견하세요. 각 캐릭터별 팁과 트릭도 포함됩니다.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=DragonSword%3A%20Awakening%20Characters",
+  date: "2026-07-22",
+  author: "드래곤소드: 어웨이크닝 위키 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 드래곤소드: 어웨이크닝 플레이어블 캐릭터
+- **최고의 캐릭터**: 캐롤린, 로크시, 트레이시, 돈나, 스콘
+- **해금 팁**: 게임 초기에 고급 캐릭터를 우선 해금하세요.
+- **전투 전략**: 팀워크를 강화하기 위해 스킬 스왑 시스템을 마스터하세요.
+- **롤 밸런싱**: 최적의 게임을 위해 다양한 팀 구성을 보장하세요.
+</Callout>
+
+<Section icon={Map} title="플레이어블 캐릭터 소개">
+드래곤소드: 어웨이크닝 게임은 독특한 능력과 플레이 스타일을 가진 다양한 캐릭터를 제공합니다. 올바른 캐릭터를 선택하는 것은 성공적인 게임 경험을 위한 중요한 요소입니다.
+</Section>
+
+<Section icon={Swords} title="최고의 캐릭터 가이드">
+<Callout type="warning" title="캐릭터 해금 우선순위">
+게임 초기에 캐롤린, 로크시, 트레이시와 같은 고급 캐릭터를 해금하여 경쟁력을 높이세요.
+</Callout>
+
+<Callout type="info" title="캐롤린 - 트리플 테러">
+캐롤린은 여러 상태 이상을 적용할 수 있는 고급 캐릭터입니다. 그녀의 스킬에는 무시무시한 투사와 독성 화살이 포함되어 있어 다양한 선택지를 제공합니다.
+</Callout>
+
+<Callout type="tip" title="로크시 - 마크맨">
+로크시는 출혈 효과에 중점을 둔 고급 마크맨 캐릭터입니다. 그녀의 스킬인 "레드 스플라이언"과 "블러드 레인"은 원거리 전투를 좋아하는 사람들에게 훌륭한 선택입니다.
+</Callout>
+
+<Callout type="info" title="트레이시 - 체인 wielder">
+트레이시는 강력한 체인 공격으로 인해 인파를 통제할 수 있는 고급 캐릭터입니다. 그녀의 스킬 "성화"와 "신의 판단"은 단일 대상과 그룹 모두에 강력한 선택입니다.
+</Callout>
+
+<Callout type="info" title="돈나 - 소환사">
+돈나는 얼음 거미, 쇼콜릿을 소환할 수 있는 고급 소환사입니다. 그녀는 어떤 팀에도 강력한 추가력을 제공합니다.
+</Callout>
+
+<Callout type="info" title="스콘 - 전기 enforcer">
+스콘은 전기와 마비 효과를 전문으로 한 중급 캐릭터입니다. 그의 스킬 "성스러운 충격"과 "성스러운 파괴"는 팀 지원을 원하는 사람들에게 solid한 선택입니다.
+</Callout>
+</Section>
+
+<Section icon={Target} title="단계별 해금 가이드">
+<Steps>
+  <Step num="1" title="초기 설정">
+    초기 튜토리얼을 완료하고 필요한 아이템을 모으세요.
+  </Step>
+  <Step num="2" title="캐릭터 해금">
+    게임 진행에 따라 운명 초대장을 사용하여 캐릭터를 해금하세요.
+  </Step>
+  <Step num="3" title="캐릭터 구성">
+    각 캐릭터의 스킬과 장비를 플레이 스타일에 맞게 맞추세요.
+  </Step>
+  <Step num="4" title="팀 구성">
+    서로의 능력을 보완하는 캐릭터로 구성된 균형 잡힌 팀을 만들어주세요.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="캐릭터 랭킹">
+캐릭터의 강점과 플레이 스타일에 따른 랭킹 분석입니다:
+
+| 캐릭터 | 랭킹 | 备注 |
+|--------|------|------|
+| 캐롤린 | ★★★★★ | 다중 효과 전문가 |
+| 로크시 | ★★★★★ | 출혈 효과 마크맨 |
+| 트레이시 | ★★★★ | 인파 통제 및 마비 |
+| 돈나 | ★★★★ | 강력한 소환사 |
+| 스콘 | ★★★ | 팀 지원 |
+</Section>
+
+<Section icon={Shield} title="자주 묻는 질문">
+<FAQ items={[
+  {
+    question: "새 캐릭터를 어떻게 해금하나요?",
+    answer: "게임 진행에 따라 운명 초대장을 사용하여 새 캐릭터를 해금하세요."
+  },
+  {
+    question: "시작자에게 가장 좋은 캐릭터는 어때요?",
+    answer: "다양한 능력을 가진 캐롤린이 초보자에게 좋은 선택입니다."
+  },
+  {
+    question: "해금한 후 캐릭터의 직업을 변경할 수 있나요?",
+    answer: "해금한 후 캐릭터의 직업을 변경할 수 없습니다."
+  }
+]} />
+</Section>

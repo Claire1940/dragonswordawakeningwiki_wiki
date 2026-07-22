@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout, YouTubeEmbed } from '@/components/mdx';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist, FAQ } from '@/components/mdx/Checklist';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+
+export const metadata = {
+  title: "드래곤소드: 어웨이크닝 - 히어로 티어리스트 및 팁",
+  description: "드래곤소드: 어웨이크닝에서 가장 좋은 히어로들, 그 티어, 그리고 게임에서 우수하게 활약하기 위한 필수 팁을 알아보세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=드래곤소드:%20어웨이크닝",
+  date: "2026-07-22",
+  author: "드래곤소드 어웨이크닝 위키 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 드래곤소드: 어웨이크닝 히어로 티어리스트
+- **주요 기계**: 히어로 해금 및 플레이
+- **최고 전략**: 강력한 시너지를 가진 히어로를 우선순위 부여
+- **필수 팁**: 다양한 조합을 실험하여 자신만의 취향을 찾으세요
+- **최고 선택**: 찰로트, 로키, 트레이시와 같은 고-tier 히어로
+</Callout>
+
+<Section icon={Map} title="히어로 티어리스트">
+
+<CardGrid cols={3}>
+  <Card title="고-tier">
+    - 찰로트 - 독과 무시할 수 없는 능력으로 다재다능
+    - 로키 - 출혈 효과를 가진 우수한 원거리 전투자
+    - 트레이시 - 스타일링 능력을 가진 공격적인 체인 전투자
+    - 돈나 - 얼음 기반 능력을 가진 강력한 소환사
+  </Card>
+  <Card title="중-tier">
+    - 애λε克斯 - 방어에 중점을 둔 방어막과 밀어치기 공격
+    - 엘린 - 강력한 원거리 공격을 가진 장창 전투자
+    - 카린 - 불 능력을 가진 신뢰할 수 있는 마법사
+    - 레나 - 드래곤과 바람 기술을 가진 강력한 공중 발사자
+  </Card>
+  <Card title="저-tier">
+    - 스콘 - 전기와 마비 효과를 가진 원거리 전투자
+    - 타트 - 중도적인 치유를 가진 전기 마법사
+    - 아스타리아 - 지역 피해와 타워 모드를 가진 활사용자
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="히어로 해금">
+
+<Steps>
+  <Step num="1" title="초대장 획득">
+    주요 퀘스트를 통해 운명 초대장을 모아 히어로를 해금하세요.
+  </Step>
+  <Step num="2" title="메뉴 접근">
+    사용 가능한 히어로를 확인하기 위해 컬렉션 메뉴로 이동하세요.
+  </Step>
+  <Step num="3" title="히어로 선택">
+  목록에서 히어로를 선택하고 클릭하여 해금하세요.
+  </Step>
+  <Step num="4" title="능력 장착">
+    히어로의 플레이 스타일을 맞춤화하기 위해 능력을 장착하세요.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="히어로 성과 체크리스트">
+
+<Checklist
+  id="heroes-performance"
+  title="주요 성과 지표:"
+  items={[
+    "건강과 피해 가능성",
+    "특수 능력과 범위",
+    "다른 히어로와의 시너지",
+    "이동성과 유용성",
+    "방어 능력"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "드래곤소드: 어웨이크닝에서 해금할 수 있는 히어로는 몇 명인가요?",
+    answer: "주요 퀘스트와 다른 활동을 통해 여러 히어로를 해금할 수 있습니다."
+  },
+  {
+    question: "히어로를 해금하기 전에 미리 확인할 수 있나요?",
+    answer: "죄송합니다만, 현재 미리 확인 기능이 없습니다. 그러나 가이드와 커뮤니티 순위를 통해 결정을 내릴 수 있습니다."
+  },
+  {
+    question: "시작자에게 가장 좋은 히어로는 무엇인가요?",
+    answer: "시작자는 기본 스탯과 능력이 좋은, 초보자 친화적인 히어로로 시작해야 합니다."
+  }
+]} />
+
+</Section>

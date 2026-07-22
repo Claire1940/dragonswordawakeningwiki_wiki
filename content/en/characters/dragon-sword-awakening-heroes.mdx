@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist, FAQ } from '@/components/mdx/Checklist'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "DragonSword: Awakening - Heroes Tier List & Tips",
+  description: "Discover the best heroes in DragonSword: Awakening, their tiers, and essential tips to excel in the game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=DragonSword:%20Awakening",
+  date: "2026-07-22",
+  author: "dragon sword awakening Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: DragonSword: Awakening Heroes Tier List
+- **Key mechanic**: Unlocking and playing heroes
+- **Best strategy**: Prioritize heroes with strong synergy
+- **Critical tip**: Experiment with different combinations to find your favorite
+- **Top choice**: High-tier heroes like Charlotte, Roksi, and Tracey
+</Callout>
+
+<Section icon={Map} title="Heroes Tier List">
+
+<CardGrid cols={3}>
+  <Card title="High Tier">
+    - Charlotte - Versatile with poison and invisibility abilities
+    - Roksi - Excellent ranged fighter with bleeding effects
+    - Tracey - Aggressive chain fighter with stunning abilities
+    - Donna - Strong summoner with ice-based abilities
+  </Card>
+  <Card title="Mid Tier">
+    - Alex - Defense-focused with shield and bash attacks
+    - Elin - Long spear fighter with powerful ranged attacks
+    - Karin - Reliable spellcaster with fire abilities
+    - Rena - Powerful air launcher with dragon and wind skills
+  </Card>
+  <Card title="Low Tier">
+    - Scion - Ranged fighter with electric and stun effects
+    - Tart - Electric spellcaster with moderate healing
+    - Astaria - Bow user with area damage andturret mode
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Unlocking Heroes">
+
+<Steps>
+  <Step num="1" title="Obtain Invitation">
+    Unlock heroes by collecting Destiny Invitations through main quests.
+  </Step>
+  <Step num="2" title="Access Menu">
+    Go to the Collection menu to view available heroes.
+  </Step>
+  <Step num="3" title="Select Hero">
+  Choose a hero from the list and click on it to unlock.
+  </Step>
+  <Step num="4" title="Equip Abilities">
+    Equip abilities to customize your hero's playstyle.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Heroes Performance Checklist">
+
+<Checklist
+  id="heroes-performance"
+  title="Key Performance Indicators:"
+  items={[
+    "Health and Damage Potential",
+    "Special Abilities and Range",
+    "Synergy with Other Heroes",
+    "Mobility and Utility",
+    "Defensive Abilities"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How many heroes can I unlock in DragonSword: Awakening?",
+    answer: "You can unlock multiple heroes through the main questline and other activities."
+  },
+  {
+    question: "Can I preview heroes before unlocking them?",
+    answer: "Unfortunately, there is no preview feature available yet. However, there are guides and community rankings to help you make decisions."
+  },
+  {
+    question: "What are the best heroes for a beginner?",
+    answer: "Beginners should start with heroes that are beginner-friendly and have good base stats and abilities."
+  }
+]} />
+
+</Section>

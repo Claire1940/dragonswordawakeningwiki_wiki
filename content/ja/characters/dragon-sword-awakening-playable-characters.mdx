@@ -1,0 +1,99 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout, YouTubeEmbed } from '@/components/mdx';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+
+export const metadata = {
+  title: "ドラゴンソード：覚醒 - プレイ可能キャラクター指南",
+  description: "ドラゴンソード：覚醒で最も優れたキャラクターを発見し、それぞれのキャラクターのためのヒントとコツを紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=ドラゴンソード%3A%20Awakening%20Characters",
+  date: "2026-07-22",
+  author: "ドラゴンソード：覚醒 Wiki チーム"
+};
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: ドラゴンソード：覚醒 プレイ可能キャラクター
+- **トップキャラクター**: Charlotte、Roxxy、Tracey、Donna、Scion
+- **解除のヒント**: ゲームの初期段階でハイティアキャラクターを優先解除
+- **戦闘戦略**: スキル交換システムをマスターしてチームワークを強化
+- **役割バランス**: 最適なプレイのために多様なチーム構成を確保
+</Callout>
+
+<Section icon={Map} title="プレイ可能キャラクターの紹介">
+ドラゴンソード：覚醒ゲームは、ユニークな能力とプレイスタイルを持つさまざまなキャラクターを提供しています。正しいキャラクターを選ぶことは、成功したゲームプレイ体験に不可欠です。
+</Section>
+
+<Section icon={Swords} title="トップキャラクター指南">
+<Callout type="warning" title="キャラクター解除の優先順位">
+ゲームの初期段階でCharlotte、Roxxy、そしてTraceyなどのハイティアキャラクターを解除して、競争優位を確保します。
+</Callout>
+
+<Callout type="info" title="Charlotte - トリプル脅威">
+Charlotteは、複数の状態効果を適用する能力を持つハイティアキャラクターです。彼女のスキルには、隠れ身と毒の矢が含まれており、多様な選択肢を提供します。
+</Callout>
+
+<Callout type="tip" title="Roxxy - スナイパー">
+Roxxyは、出血効果に焦点を当てたハイティアスナイパーキャラクターです。彼女のスキル「赤い螺旋」や「血の雨」が、遠距離戦を好む人々にとって優れた選択肢です。
+</Callout>
+
+<Callout type="info" title="Tracey - 鎖使い">
+Traceyは、強力な鎖攻撃を持つハイティアキャラクターで、群れを制御できます。彼女のスキル「神聖化」や「神の裁き」は、単一のターゲットやグループに対して非常に強力です。
+</Callout>
+
+<Callout type="info" title="Donna - 召喚師">
+Donnaは、凍結効果に専門化したハイティア召喚師キャラクターです。彼女は巨大な氷のゴーレム、Chocolateを召喚できるため、どんなチームにも強力な追加要員となります。
+</Callout>
+
+<Callout type="info" title="Scion - 電気執行人">
+Scionは、電気を流し、敵を麻痺させることに専門化したミディアムティアキャラクターです。彼のスキル「神聖な衝撃」や「神聖な砕き」は、チームサポートを追加したい人々にとって安定した選択肢です。
+</Callout>
+</Section>
+
+<Section icon={Target} title="ステップバイステップ解除ガイド">
+<Steps>
+  <Step num="1" title="初期設定">
+    初期チュートリアルを完了し、必要なアイテムを集めます。
+  </Step>
+  <Step num="2" title="キャラクターの解除">
+    ゲームを進めるにつれて、運命の招待を使ってキャラクターを解除します。
+  </Step>
+  <Step num="3" title="キャラクターの構築">
+    各キャラクターのスキルと装備をカスタマイズして、あなたのプレイスタイルに合わせます。
+  </Step>
+  <Step num="4" title="チーム構成">
+    各キャラクターの能力を補完するキャラクターでバランスの良いチームを作成します。
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="キャラクター評価">
+以下は、強さとプレイスタイルに基づいたキャラクター評価の概要です：
+
+| キャラクター | 評価 | ノート |
+|-----------|---------|-------|
+| Charlotte | ★★★★★ | 複数効果専門家 |
+| Roxxy | ★★★★★ | 出血効果のスナイパー |
+| Tracey | ★★★★ | 群れを制御し、麻痺させる |
+| Donna | ★★★★ | 効果的な召喚師 |
+| Scion | ★★★ | チームサポート |
+</Section>
+
+<Section icon={Shield} title="よくある質問">
+<FAQ items={[
+  {
+    question: "新しいキャラクターを解除する方法は何ですか？",
+    answer: "ゲームを進めるにつれて、運命の招待を使って新しいキャラクターを解除します。"
+  },
+  {
+    question: "初心者に最適なキャラクターはどれですか？",
+    answer: "多様な能力を持つため、Charlotteが初心者に最適です。"
+  },
+  {
+    question: "解除した後、キャラクターのクラスを変更できますか？",
+    answer: "解除した後、キャラクターのクラスを変更することはできません。"
+  }
+]} />
+</Section>

@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout, YouTubeEmbed } from '@/components/mdx'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist, FAQ } from '@/components/mdx/Checklist'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ドラゴンソード：覚醒 - ヒーローティアリストとチップ",
+  description: "ドラゴンソード：覚醒で最も優れたヒーロー、彼らのティアとゲームで優秀にプレイするための重要なチップを発見してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=ドラゴンソード:%20Awakening",
+  date: "2026-07-22",
+  author: "ドラゴンソード：覚醒 Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: ドラゴンソード：覚醒 ヒーローティアリスト
+- **主要メカニクス**: ヒーローの解除とプレイ
+- **ベストストラテジー**: 強いシナジーを持つヒーローを優先
+- **重要なヒント**: 異なる組み合わせを試してお気に入りを見つける
+- **トップ選択**: Charlotte、Roksi、そしてTraceyなどのハイティアヒーロー
+</Callout>
+
+<Section icon={Map} title="ヒーローティアリスト">
+
+<CardGrid cols={3}>
+  <Card title="ハイティア">
+    - Charlotte - 毒と無敵能力を持つ多様なヒーロー
+    - Roksi - 裂傷効果を持つ優れた遠距離戦士
+    - Tracey - ストンキング能力を持つ攻撃的な連鎖戦士
+    - Donna - 氷ベースの能力を持つ強力なサモナー
+  </Card>
+  <Card title="ミッドティア">
+    - Alex - 盾とバッシュ攻撃に焦点を当てた防御型ヒーロー
+    - Elin - 力強い遠距離攻撃を持つ長槍戦士
+    - Karin - 火の能力を持つ信頼性の高い魔法使い
+    - Rena - 龍と風のスキルを持つ強力な空中発射者
+  </Card>
+  <Card title="ローウィアー">
+    - Scion - 電気と麻痺効果を持つ遠距離戦士
+    - Tart - 中程度の回復を持つ電気魔法使い
+    - Astaria - 地域ダメージとタワーモードを持つ弓使い
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="ヒーローの解除">
+
+<Steps>
+  <Step num="1" title="招待状を入手">
+    メインクエストを通じてデスティニー招待状を収集してヒーローを解除します。
+  </Step>
+  <Step num="2" title="メニューにアクセス">
+    利用可能なヒーローを表示するコレクションメニューに移動します。
+  </Step>
+  <Step num="3" title="ヒーローを選択">
+  リストからヒーローを選択し、解除するためにクリックします。
+  </Step>
+  <Step num="4" title="能力を装備">
+  ヒーローのプレイスタイルをカスタマイズするために能力を装備します。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="ヒーローのパフォーマンスチェックリスト">
+
+<Checklist
+  id="heroes-performance"
+  title="主要パフォーマンス指標:"
+  items={[
+    "健康とダメージポテンシャル",
+    "特殊能力と範囲",
+    "他のヒーローとのシナジー",
+    "機動性とユーティリティ",
+    "防御能力"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "ドラゴンソード：覚醒で解除できるヒーローの数はいくつですか？",
+    answer: "メインクエストラインや他のアクティビティを通じて複数のヒーローを解除できます。"
+  },
+  {
+    question: "解除する前にヒーローをプレビューできますか？",
+    answer: "残念ながらまだプレビューフィーチャーはありません。しかし、ガイドやコミュニティのランク付けが決定を助けることができます。"
+  },
+  {
+    question: "初心者に最適なヒーローは何ですか？",
+    answer: "初心者はベースステータスと能力が良い、初心者フレンドリーなヒーローから始めるべきです。"
+  }
+]} />
+
+</Section>
