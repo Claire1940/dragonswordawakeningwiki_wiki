@@ -10,14 +10,7 @@
       "twitterDescription": "DragonSword Awakening Wiki provides hero guides, builds, combat tips, walkthroughs, characters, and updates for the anime open world RPG on Steam."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
