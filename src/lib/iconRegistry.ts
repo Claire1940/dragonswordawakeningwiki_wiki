@@ -28,6 +28,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // DragonSword Awakening 首页导航图标
+  Compass: LucideIcons.Compass,
+  Swords: LucideIcons.Swords,
+  Map: LucideIcons.Map,
+  Trophy: LucideIcons.Trophy,
+  CalendarDays: LucideIcons.CalendarDays,
+  KeyRound: LucideIcons.KeyRound,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
