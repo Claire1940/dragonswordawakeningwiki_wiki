@@ -1,0 +1,62 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "DragonSword: Awakening - ultimative Anleitung",
+  description: "Komplette Anleitung zu DragonSword: Awakening, einschließlich Charakteren, Builds, Kampftaktiken und mehr.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=DragonSword%3A%20Awakening%20Guide",
+  date: "2026-07-22",
+  author: "DragonSword: Awakening Wiki Team"
+}
+
+<Callout type="info" title="Kurzguide">
+- **Hauptkeyword**: DragonSword: Awakening
+- **Schlüsselmechanik**: Tag-Team-Kampf und Erkundung
+- **Beste Strategie**: Setze auf Heldensynergie und Ressourcenverwaltung
+- **Wichtiger Tipp**: Lerne die elementaren Schwächen der Feinde für effektiven Kampf
+- **Top-Wahl**: Optimiere deine Mannschaft mit den richtigen Builds für deinen Spielstil
+</Callout>
+
+<Section icon={Map} title="Spielübersicht">
+DragonSword: Awakening ist ein anime-artiges offenes Welten-Aktions-RPG, das ein reichhaltiges und immersives Erlebnis bietet. Das Spiel verfügt über Tag-Team-Kämpfe, die es den Spielern ermöglichen, zwischen Helden zu wechseln, um mächtige Angriffsketten zu bilden und die Schwächen der Feinde auszunutzen. Die Welt von Orbis ist riesig, mit vielfältigen Umgebungen zu erkunden und Geheimnisse zu entdecken.
+</Section>
+
+<Section icon={Swords} title="Helden und Charaktere">
+DragonSword: Awakening verfügt über eine Liste von 19 spielbaren Helden, jeder mit einzigartigen Fähigkeiten und Rollen. Die Spieler müssen eine ausgewogene Mannschaft aufbauen, die ihren Spielstil ergänzt. Dieser Abschnitt bietet detaillierte Informationen zu jedem Helden, einschließlich ihrer Fähigkeiten, Stärken und Schwächen.
+</Section>
+
+<Section icon={Target} title="Kampftaktiken">
+Das Verständnis der Kampfmechaniken ist entscheidend für den Erfolg in DragonSword: Awakening. Dieser Abschnitt behandelt Tag-Team-Kämpfe, elementare Schwächen und effektive Kombinationsstrategien. Die Spieler lernen, wie sie die Leistung ihrer Mannschaft optimieren und selbst die härtesten Feinde besiegen können.
+</Section>
+
+<Section icon={Trophy} title="Builds und Ausrüstung">
+Die Optimierung der Builds und Ausrüstung deiner Mannschaft ist entscheidend für den Erfolg in DragonSword: Awakening. Dieser Abschnitt bietet Empfehlungen für verschiedene Spielstile, einschließlich Schadenverursachung, Tanken und Unterstützung. Die Spieler finden auch Informationen zur Aufwertung der Ausrüstung und zum Erwerb seltener Gegenstände.
+</Section>
+
+<Section icon={Shield} title="Entdeckung und Geheimnisse">
+Die Entdeckung ist ein wichtiger Bestandteil von DragonSword: Awakening. Dieser Abschnitt führt die Spieler durch die offene Welt von Orbis, hebt wichtige Orte, verborgene Gebiete und optionales Inhalt hervor. Die Spieler entdecken Geheimnisse, sammeln seltene Gegenstände und enthüllen die Legende des Spiels.
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+<FAQ items={[
+  {
+    question: "Wie viele Helden sind in DragonSword: Awakening spielbar?",
+    answer: "Es gibt 19 spielbare Helden im Spiel."
+  },
+  {
+    question: "Was ist Tag-Team-Kampf?",
+    answer: "Tag-Team-Kampf ermöglicht es den Spielern, während des Kampfes zwischen Helden zu wechseln, um mächtige Angriffsketten zu bilden und die Schwächen der Feinde auszunutzen."
+  },
+  {
+    question: "Wie kann ich meine Ausrüstung aufrüsten?",
+    answer: "Die Spieler können ihre Ausrüstung aufrüsten, indem sie Ressourcen sammeln und sie im Schmied verwenden."
+  }
+]} />
+</Section>

@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "드래곤소드: 어웨이크닝 루트맵 및 캐릭터 가이드",
+  description: "드래곤소드: 어웨이크닝 루트맵, 캐릭터 클래스, 그리고 성공적인 게임 경험을 위한 팁을 탐구하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=드래곤소드%3A%20어웨이크닝%20가이드",
+  date: "2026-07-24",
+  author: "드래곤소드 어웨이크닝 위키 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 드래곤소드: 어웨이크닝
+- **주요 기계**: 캐릭터 클래스 해금 및 전투 시스템 마스터링
+- **최고 전략**: 플레이 스타일과 기술 수준에 따라 클래스를 우선순위 부여
+- **필수 팁**: 게임 루트맵을 확인하여即将到来的更新 및 콘텐츠를 확인하세요
+- **최고 선택**: 초보자를 위한 고급 캐릭터: 캐롤린, 로키, 그리고 트렌치아
+</Callout>
+
+<Section icon={Map} title="소개">
+드래곤소드: 어웨이크닝의 최종 가이드를 환영합니다. 이 종합적인 루트맵은 게임의 진행, 캐릭터 클래스, 그리고即将到来的更新를 탐색하는 데 도움이 될 것입니다.
+</Section>
+
+<Section icon={Swords} title="캐릭터 클래스">
+드래곤소드: 어웨이크닝은 다양한 캐릭터 클래스를 특징으로 하며, 각 클래스마다 독특한 능력과 플레이 스타일을 가지고 있습니다. 고려해야 할 주요 클래스를 설명하겠습니다:
+</Section>
+
+<Callout type="tip" title="초보자를 위한 주요 클래스">
+- **캐롤린**: 다양한 상태 이상을 가진 유연한 캐릭터.
+- **로키**: 높은 이동성과 출혈 효과를 가진 원거리 캐릭터.
+- **트렌치아**: 넓은 범위와 집중 통제 능력을 가진 더블 웨일링 캐릭터.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="캐롤린">
+    - **클래스**: 더블 웨일러
+    - **능력**: 독, 마비, 쓰러짐
+    - **플레이 스타일**: 유연하며 팀 플레이에 적합
+  </Card>
+  <Card title="로키">
+    - **클래스**: 마크맨
+    - **능력**: 출혈, 원거리 공격
+    - **플레이 스타일**: 이동성 높으며 빠른 공격에 적합
+  </Card>
+  <Card title="트렌치아">
+    - **클래스**: 더블 웨일러
+    - **능력**: 출혈, 마비
+    - **플레이 스타일**: 강력하며 독립 플레이에 적합
+  </Card>
+</CardGrid>
+
+<Section icon={Target} title="전투 시스템">
+드래곤소드: 어웨이크닝에서 성공하기 위해서는 전투 시스템을 마스터하는 것이 중요합니다. 시작하기 위한 단계별 가이드를 소개합니다:
+</Section>
+
+<Steps>
+  <Step num="1" title="캐릭터 전환">
+    캐릭터 간 전환을 배워 콤보 가능성을 극대화하세요.
+  </Step>
+  <Step num="2" title="타겟팅">
+    타겟 시스템을 사용하여 적을 잡고 상태 이상을 적용하세요.
+  </Step>
+  <Step num="3" title="특별 능력">
+    캐릭터의 특별 능력을 마스터하여 대량의 피해를 입히세요.
+  </Step>
+</Steps>
+
+<Section icon={Trophy} title="即将到来的更新">
+드래곤소드: 어웨이크닝의 최신 루트맵을 확인하세요. 即将到来的未来에 무엇이 오를지 알아보세요:
+</Section>
+
+<Callout type="warning" title="即将到来的内容">
+- **신 캐릭터**: 2026년 후반기에 네 명의 새로운 영웅이 추가됩니다.
+- **신 퀘스트**: 영웅 퀘스트는 메인 캠페인을 넘어 이야기를 확장합니다.
+- **리프트 시스템**: 플레이어는 차원 포털에 접속하여 다른 차원에서 전투할 수 있습니다.
+</Callout>
+
+<Section icon={Shield} title="결론">
+드래곤소드: 어웨이크닝은 다양한 캐릭터 클래스와 전투 기계를 가진 풍부하고 매력적인 RPG 경험을 제공합니다. 이 가이드를 따르면 게임을 마스터하고 성공을 이루는 데 큰 도움이 될 것입니다.
+</Section>
+
+<FAQ items={[
+  {
+    question: "게임의 전투 시스템은 어떻게 되나요?",
+    answer: "전투 시스템은 동적이며 캐릭터 간 전환을 통해 콤보 가능성을 극대화하고 상태 이상을 적용하는 것이 필요합니다."
+  },
+  {
+    question: "친구들과 함께 플레이할 수 있나요?",
+    answer: "네, 드래곤소드: 어웨이크닝은 친구들과 함께 플레이할 수 있는 선택적 협동 모드를 제공합니다."
+  },
+  {
+    question: "게임에 마이크로트랜잭션이 있나요?",
+    answer: "게임에는 마이크로트랜잭션이 없으며 모든 콘텐츠는 기본 게임에 포함되어 있습니다."
+  }
+]} />

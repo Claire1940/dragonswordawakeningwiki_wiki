@@ -6,6 +6,10 @@
         "file": "dragon-sword-awakening-all-characters"
       },
       {
+        "slug": "dragon-sword-awakening-character-creation",
+        "file": "dragon-sword-awakening-character-creation"
+      },
+      {
         "slug": "dragon-sword-awakening-characters",
         "file": "dragon-sword-awakening-characters"
       },
@@ -18,8 +22,20 @@
         "file": "dragon-sword-awakening-lute"
       },
       {
+        "slug": "dragon-sword-awakening-main-character",
+        "file": "dragon-sword-awakening-main-character"
+      },
+      {
         "slug": "dragon-sword-awakening-playable-characters",
         "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck",
+        "file": "dragon-sword-awakening-steam-deck"
+      },
+      {
+        "slug": "dragon-sword-awakening-steamdb",
+        "file": "dragon-sword-awakening-steamdb"
       },
       {
         "slug": "dragon-sword-awakening-theresia",
@@ -94,12 +110,52 @@
     ],
     "guide": [
       {
+        "slug": "dragon-sword-awakening-ama",
+        "file": "dragon-sword-awakening-ama"
+      },
+      {
+        "slug": "dragon-sword-awakening-android",
+        "file": "dragon-sword-awakening-android"
+      },
+      {
         "slug": "dragon-sword-awakening-beginner-guide",
         "file": "dragon-sword-awakening-beginner-guide"
       },
       {
+        "slug": "dragon-sword-awakening-beta",
+        "file": "dragon-sword-awakening-beta"
+      },
+      {
+        "slug": "dragon-sword-awakening-coop",
+        "file": "dragon-sword-awakening-coop"
+      },
+      {
+        "slug": "dragon-sword-awakening-cost",
+        "file": "dragon-sword-awakening-cost"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo-reddit",
+        "file": "dragon-sword-awakening-demo-reddit"
+      },
+      {
+        "slug": "dragon-sword-awakening-developer",
+        "file": "dragon-sword-awakening-developer"
+      },
+      {
+        "slug": "dragon-sword-awakening-discord",
+        "file": "dragon-sword-awakening-discord"
+      },
+      {
         "slug": "dragon-sword-awakening-guide",
         "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-news",
+        "file": "dragon-sword-awakening-news"
+      },
+      {
+        "slug": "dragon-sword-awakening-reddit",
+        "file": "dragon-sword-awakening-reddit"
       },
       {
         "slug": "dragon-sword-awakening-review",
@@ -112,6 +168,10 @@
       {
         "slug": "dragon-sword-awakening-tips",
         "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-trailer",
+        "file": "dragon-sword-awakening-trailer"
       },
       {
         "slug": "dragon-sword-awakening-walkthrough",
@@ -138,6 +198,10 @@
       {
         "slug": "dragon-sword-awakening-release-date",
         "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-roadmap",
+        "file": "dragon-sword-awakening-roadmap"
       },
       {
         "slug": "dragon-sword-awakening-steam",
@@ -182,6 +246,10 @@
         "file": "dragon-sword-awakening-playable-characters"
       },
       {
+        "slug": "dragon-sword-awakening-steamdb",
+        "file": "dragon-sword-awakening-steamdb"
+      },
+      {
         "slug": "dragon-sword-awakening-theresia",
         "file": "dragon-sword-awakening-theresia"
       }
@@ -254,12 +322,32 @@
     ],
     "guide": [
       {
+        "slug": "dragon-sword-awakening-ama-highlights",
+        "file": "dragon-sword-awakening-ama-highlights"
+      },
+      {
+        "slug": "dragon-sword-awakening-android",
+        "file": "dragon-sword-awakening-android"
+      },
+      {
         "slug": "dragon-sword-awakening-beginner-guide",
         "file": "dragon-sword-awakening-beginner-guide"
       },
       {
+        "slug": "dragon-sword-awakening-discord",
+        "file": "dragon-sword-awakening-discord"
+      },
+      {
         "slug": "dragon-sword-awakening-guide",
         "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-news",
+        "file": "dragon-sword-awakening-news"
+      },
+      {
+        "slug": "dragon-sword-awakening-reddit",
+        "file": "dragon-sword-awakening-reddit"
       },
       {
         "slug": "dragon-sword-awakening-review",
@@ -272,6 +360,10 @@
       {
         "slug": "dragon-sword-awakening-tips",
         "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-trailer",
+        "file": "dragon-sword-awakening-trailer"
       },
       {
         "slug": "dragon-sword-awakening-walkthrough",
@@ -292,12 +384,20 @@
         "file": "dragon-sword-awakening-price"
       },
       {
+        "slug": "dragon-sword-awakening-ps5-release-date",
+        "file": "dragon-sword-awakening-ps5-release-date"
+      },
+      {
         "slug": "dragon-sword-awakening-ps5",
         "file": "dragon-sword-awakening-ps5"
       },
       {
         "slug": "dragon-sword-awakening-release-date",
         "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-roadmap",
+        "file": "dragon-sword-awakening-roadmap"
       },
       {
         "slug": "dragon-sword-awakening-steam",
@@ -326,6 +426,10 @@
         "file": "dragon-sword-awakening-all-characters"
       },
       {
+        "slug": "dragon-sword-awakening-character-creation",
+        "file": "dragon-sword-awakening-character-creation"
+      },
+      {
         "slug": "dragon-sword-awakening-characters",
         "file": "dragon-sword-awakening-characters"
       },
@@ -338,8 +442,20 @@
         "file": "dragon-sword-awakening-lute"
       },
       {
+        "slug": "dragon-sword-awakening-main-character",
+        "file": "dragon-sword-awakening-main-character"
+      },
+      {
         "slug": "dragon-sword-awakening-playable-characters",
         "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck",
+        "file": "dragon-sword-awakening-steam-deck"
+      },
+      {
+        "slug": "dragon-sword-awakening-steamdb",
+        "file": "dragon-sword-awakening-steamdb"
       },
       {
         "slug": "dragon-sword-awakening-theresia",
@@ -414,12 +530,52 @@
     ],
     "guide": [
       {
+        "slug": "dragon-sword-awakening-ama",
+        "file": "dragon-sword-awakening-ama"
+      },
+      {
+        "slug": "dragon-sword-awakening-android",
+        "file": "dragon-sword-awakening-android"
+      },
+      {
         "slug": "dragon-sword-awakening-beginner-guide",
         "file": "dragon-sword-awakening-beginner-guide"
       },
       {
+        "slug": "dragon-sword-awakening-beta",
+        "file": "dragon-sword-awakening-beta"
+      },
+      {
+        "slug": "dragon-sword-awakening-coop",
+        "file": "dragon-sword-awakening-coop"
+      },
+      {
+        "slug": "dragon-sword-awakening-cost",
+        "file": "dragon-sword-awakening-cost"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo-reddit",
+        "file": "dragon-sword-awakening-demo-reddit"
+      },
+      {
+        "slug": "dragon-sword-awakening-developer",
+        "file": "dragon-sword-awakening-developer"
+      },
+      {
+        "slug": "dragon-sword-awakening-discord",
+        "file": "dragon-sword-awakening-discord"
+      },
+      {
         "slug": "dragon-sword-awakening-guide",
         "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-news",
+        "file": "dragon-sword-awakening-news"
+      },
+      {
+        "slug": "dragon-sword-awakening-reddit",
+        "file": "dragon-sword-awakening-reddit"
       },
       {
         "slug": "dragon-sword-awakening-review",
@@ -432,6 +588,10 @@
       {
         "slug": "dragon-sword-awakening-tips",
         "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-trailer",
+        "file": "dragon-sword-awakening-trailer"
       },
       {
         "slug": "dragon-sword-awakening-walkthrough",
@@ -452,12 +612,20 @@
         "file": "dragon-sword-awakening-price"
       },
       {
+        "slug": "dragon-sword-awakening-ps5-release-date",
+        "file": "dragon-sword-awakening-ps5-release-date"
+      },
+      {
         "slug": "dragon-sword-awakening-ps5",
         "file": "dragon-sword-awakening-ps5"
       },
       {
         "slug": "dragon-sword-awakening-release-date",
         "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-roadmap",
+        "file": "dragon-sword-awakening-roadmap"
       },
       {
         "slug": "dragon-sword-awakening-steam",
@@ -486,6 +654,10 @@
         "file": "dragon-sword-awakening-all-characters"
       },
       {
+        "slug": "dragon-sword-awakening-character-creation",
+        "file": "dragon-sword-awakening-character-creation"
+      },
+      {
         "slug": "dragon-sword-awakening-characters",
         "file": "dragon-sword-awakening-characters"
       },
@@ -498,8 +670,20 @@
         "file": "dragon-sword-awakening-lute"
       },
       {
+        "slug": "dragon-sword-awakening-main-character",
+        "file": "dragon-sword-awakening-main-character"
+      },
+      {
         "slug": "dragon-sword-awakening-playable-characters",
         "file": "dragon-sword-awakening-playable-characters"
+      },
+      {
+        "slug": "dragon-sword-awakening-steam-deck",
+        "file": "dragon-sword-awakening-steam-deck"
+      },
+      {
+        "slug": "dragon-sword-awakening-steamdb",
+        "file": "dragon-sword-awakening-steamdb"
       },
       {
         "slug": "dragon-sword-awakening-theresia",
@@ -574,12 +758,52 @@
     ],
     "guide": [
       {
+        "slug": "dragon-sword-awakening-ama",
+        "file": "dragon-sword-awakening-ama"
+      },
+      {
+        "slug": "dragon-sword-awakening-android",
+        "file": "dragon-sword-awakening-android"
+      },
+      {
         "slug": "dragon-sword-awakening-beginner-guide",
         "file": "dragon-sword-awakening-beginner-guide"
       },
       {
+        "slug": "dragon-sword-awakening-beta",
+        "file": "dragon-sword-awakening-beta"
+      },
+      {
+        "slug": "dragon-sword-awakening-coop",
+        "file": "dragon-sword-awakening-coop"
+      },
+      {
+        "slug": "dragon-sword-awakening-cost",
+        "file": "dragon-sword-awakening-cost"
+      },
+      {
+        "slug": "dragon-sword-awakening-demo-reddit",
+        "file": "dragon-sword-awakening-demo-reddit"
+      },
+      {
+        "slug": "dragon-sword-awakening-developer",
+        "file": "dragon-sword-awakening-developer"
+      },
+      {
+        "slug": "dragon-sword-awakening-discord",
+        "file": "dragon-sword-awakening-discord"
+      },
+      {
         "slug": "dragon-sword-awakening-guide",
         "file": "dragon-sword-awakening-guide"
+      },
+      {
+        "slug": "dragon-sword-awakening-news",
+        "file": "dragon-sword-awakening-news"
+      },
+      {
+        "slug": "dragon-sword-awakening-reddit",
+        "file": "dragon-sword-awakening-reddit"
       },
       {
         "slug": "dragon-sword-awakening-review",
@@ -592,6 +816,10 @@
       {
         "slug": "dragon-sword-awakening-tips",
         "file": "dragon-sword-awakening-tips"
+      },
+      {
+        "slug": "dragon-sword-awakening-trailer",
+        "file": "dragon-sword-awakening-trailer"
       },
       {
         "slug": "dragon-sword-awakening-walkthrough",
@@ -618,6 +846,10 @@
       {
         "slug": "dragon-sword-awakening-release-date",
         "file": "dragon-sword-awakening-release-date"
+      },
+      {
+        "slug": "dragon-sword-awakening-roadmap",
+        "file": "dragon-sword-awakening-roadmap"
       },
       {
         "slug": "dragon-sword-awakening-steam",

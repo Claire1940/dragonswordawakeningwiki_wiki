@@ -1,0 +1,62 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "ドラゴンソード：覚醒 - 完全ガイド",
+  description: "ドラゴンソード：覚醒の詳細ガイド、キャラクター、ビルド、戦闘戦略などが含まれています。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=ドラゴンソード%3A%20Awakening%20Guide",
+  date: "2026-07-22",
+  author: "ドラゴンソード：覚醒 Wiki チーム"
+};
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: ドラゴンソード：覚醒
+- **主要メカニクス**: タッグチームバトルと探索
+- **ベストストラテジー**: ヒーローの相性とリソース管理に焦点を当てる
+- **重要なヒント**: 敵の元素の弱点を学び、効果的な戦闘を行うために
+- **トップチョイス**: プレイスタイルに合わせた正しいビルドでチームを最適化する
+</Callout>
+
+<Section icon={Map} title="ゲーム概要">
+ドラゴンソード：覚醒は、豊かで没入感のある体験を提供するアニメスタイルのオープンワールドアクションRPGです。ゲームはタッグチームバトルを特徴としており、プレイヤーはヒーローを交代して強力な攻撃連続と敵の弱点を利用するために使用できます。オービスの世界は広大で、探索するための多様な環境と隠された秘密が満載です。
+</Section>
+
+<Section icon={Swords} title="ヒーローとキャラクター">
+ドラゴンソード：覚醒には、それぞれユニークな能力と役割を持つ19人のプレイ可能なヒーローが登場しています。プレイヤーは自分のプレイスタイルに合わせたバランスの取れたチームを構築する必要があります。このセクションでは、各ヒーローの能力、強み、弱みについて詳細に説明しています。
+</Section>
+
+<Section icon={Target} title="戦闘戦略">
+ドラゴンソード：覚醒で成功するためには、戦闘メカニクスを理解することが重要です。このセクションでは、タッグチームバトル、元素の弱点、効果的なコンボ戦略について説明しています。プレイヤーはチームのパフォーマンスを最適化し、最も強い敵を倒す方法を学びます。
+</Section>
+
+<Section icon={Trophy} title="ビルドと装備">
+ドラゴンソード：覚醒で成功するためには、チームのビルドと装備を最適化することが重要です。このセクションでは、ダメージ dealt、タンク、サポートのビルドなど、異なるプレイスタイルに合わせた推奨事項を提供しています。プレイヤーは装備のアップグレード方法や希少アイテムの入手方法についても情報を得ることができます。
+</Section>
+
+<Section icon={Shield} title="探索と秘密">
+探索はドラゴンソード：覚醒の重要な部分です。このセクションでは、オービスのオープンワールドを案内し、重要な場所、隠されたエリア、オプションコンテンツをハイライトしています。プレイヤーは秘密を発見し、希少アイテムを収集し、ゲームの物語を解き明かします。
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+<FAQ items={[
+  {
+    question: "ドラゴンソード：覚醒で利用可能なヒーローは何人いますか？",
+    answer: "ゲームには19人のプレイ可能なヒーローがいます。"
+  },
+  {
+    question: "タッグチームバトルとは何ですか？",
+    answer: "タッグチームバトルは、戦闘中にヒーローを交代して強力な攻撃連続と敵の弱点を利用するために使用できます。"
+  },
+  {
+    question: "どうやって装備をアップグレードしますか？",
+    answer: "プレイヤーはリソースを収集し、鍛冶場で使用することで装備をアップグレードできます。"
+  }
+]} />
+</Section>

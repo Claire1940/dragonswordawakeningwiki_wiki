@@ -1,0 +1,62 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "드래곤소드: 어웨이크닝 - 최종 가이드",
+  description: "드래곤소드: 어웨이크닝에 대한 포괄적인 가이드, 등장인물, 구성, 전투 전략 등 포함",
+  category: "가이드",
+  image: "https://placehold.co/800x400/059669/fff?text=드래곤소드%3A%20어웨이크닝%20가이드",
+  date: "2026-07-22",
+  author: "드래곤소드 어웨이크닝 위키 팀"
+};
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 드래곤소드: 어웨이크닝
+- **주요 메커니즘**: 태그 팀 전투와 탐험
+- **최고 전략**: 영웅 간의 시너지와 자원 관리에 중점을 두세요
+- **핵심 팁**: 적의 요소 약점을 배워 효과적인 전투를 실천하세요
+- **최고 선택**: 플레이 스타일에 맞는 올바른 구성으로 팀을 최적화하세요
+</Callout>
+
+<Section icon={Map} title="게임 개요">
+드래곤소드: 어웨이크닝은 애니메이션 스타일의 오픈 월드 액션 RPG로, 풍부하고 몰입감 있는 경험을 제공합니다. 게임은 태그 팀 전투를 특징으로 하여, 플레이어가 영웅을 전환하여 강력한 공격 연속과 적의 약점을 이용할 수 있게 합니다. 오르비스의 세계는 넓고 다양한 환경을 탐험하고 비밀을 밝혀낼 수 있습니다.
+</Section>
+
+<Section icon={Swords} title="영웅과 등장인물">
+드래곤소드: 어웨이크닝은 19명의 플레이어가 플레이할 수 있는 영웅 명단을 자랑합니다. 각 영웅은 독특한 능력과 역할을 가지고 있습니다. 플레이어는 자신의 플레이 스타일에 맞는 균형 잡힌 팀을 구성해야 합니다. 이 섹션은 각 영웅의 능력, 강점, 약점에 대한 자세한 정보를 제공합니다.
+</Section>
+
+<Section icon={Target} title="전투 전략">
+드래곤소드: 어웨이크닝에서 성공하기 위해서는 전투 메커니즘을 이해하는 것이 중요합니다. 이 섹션은 태그 팀 전투, 요소 약점, 효과적인 콤보 전략을 다룹니다. 플레이어는 팀의 성과를 최적화하고 가장 어려운 적도 물리칠 수 있는 방법을 배울 것입니다.
+</Section>
+
+<Section icon={Trophy} title="구성과 장비">
+드래곤소드: 어웨이크닝에서 팀의 구성과 장비를 최적화하는 것은 성공의 열쇠입니다. 이 섹션은 다양한 플레이 스타일, 예를 들어 데미지 주는, 탱킹, 지원 구성에 대한 권장 사항을 제공합니다. 플레이어는 장비를 업그레이드하고 드문 아이템을 얻는 방법에 대한 정보도 찾을 수 있습니다.
+</Section>
+
+<Section icon={Shield} title="탐험과 비밀">
+탐험은 드래곤소드: 어웨이크닝의 중요한 부분입니다. 이 섹션은 오르비스의 오픈 월드를 안내하며 중요한 위치, 숨겨진 공간, 선택 사항을 강조합니다. 플레이어는 비밀을 발견하고 드문 아이템을 수집하고 게임의 전설을 밝혀낼 수 있습니다.
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+<FAQ items={[
+  {
+    question: "드래곤소드: 어웨이크닝에서 사용할 수 있는 영웅은 몇 명인가요?",
+    answer: "게임에서 사용할 수 있는 플레이어가 플레이할 수 있는 영웅은 19명입니다."
+  },
+  {
+    question: "태그 팀 전투는 무엇인가요?",
+    answer: "태그 팀 전투는 전투 중 영웅을 전환하여 강력한 공격 연속과 적의 약점을 이용할 수 있게 합니다."
+  },
+  {
+    question: "장비를 업그레이드하는 방법은 무엇인가요?",
+    answer: "플레이어는 자원을 수집하고 제련소에서 사용하여 장비를 업그레이드할 수 있습니다."
+  }
+]} />
+</Section>

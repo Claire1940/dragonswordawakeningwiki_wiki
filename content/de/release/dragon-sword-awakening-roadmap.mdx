@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "DragonSword: Awakening - Roadmap & Charakterguide",
+  description: "Entdecken Sie die Roadmap von DragonSword: Awakening, Charakterklassen und Tipps für einen erfolgreichen Spieleerlebnis.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=DragonSword%3A%20Awakening%20Guide",
+  date: "2026-07-24",
+  author: "DragonSword Awakening Wiki Team"
+};
+
+<Callout type="info" title="Kurzguide">
+- **Hauptwort**: DragonSword: Awakening
+- **Schlüsselmechanik**: Freischaltung von Charakterklassen und Beherrschung des Kampfsystems
+- **Beste Strategie**: Priorisieren Sie die Klassen basierend auf Spielstil und Fähigkeitsniveau
+- **Wichtiger Tipp**: Überprüfen Sie die Spielroadmap für zukünftige Updates und Inhalte
+- **Top-Wahl**: Hochstufige Charaktere für Anfänger: Charlotte, Roksi und Trencia
+</Callout>
+
+<Section icon={Map} title="Einleitung">
+Willkommen zum ultimativen Guide für DragonSword: Awakening. Diese umfassende Roadmap hilft Ihnen, die Spielprogression, Charakterklassen und zukünftige Updates zu navigieren.
+</Section>
+
+<Section icon={Swords} title="Charakterklassen">
+DragonSword: Awakening bietet eine Vielzahl von Charakterklassen, jede mit einzigartigen Fähigkeiten und Spielstilen. Hier ist eine Zusammenfassung der wichtigsten Klassen, die Sie in Betracht ziehen sollten:
+</Section>
+
+<Callout type="tip" title="Top-Klassen für Anfänger">
+- **Charlotte**: Eine vielseitige Figur mit mehreren Statuseffekten.
+- **Roksi**: Eine Fernkampffigur mit hoher Mobilität und Blutungseffekten.
+- **Trencia**: Eine Zweihänderfigur mit breitem Wirkungsbereich und Kontrollfähigkeit.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Charlotte">
+    - **Klasse**: Zweihänder
+    - **Fähigkeiten**: Gift, Lähmung, Rückschlag
+    - **Spielstil**: Vielseitig, großartig für Teamplay
+  </Card>
+  <Card title="Roksi">
+    - **Klasse**: Schütze
+    - **Fähigkeiten**: Blutung, Fernangriffe
+    - **Spielstil**: Mobilität, großartig für schnelle Treffer
+  </Card>
+  <Card title="Trencia">
+    - **Klasse**: Zweihänder
+    - **Fähigkeiten**: Blutung, Betäubung
+    - **Spielstil**: Mächtig, großartig für Solo-Spiel
+  </Card>
+</CardGrid>
+
+<Section icon={Target} title="Kampfsystem">
+Die Beherrschung des Kampfsystems ist entscheidend für den Erfolg in DragonSword: Awakening. Hier ist eine Schritt-für-Schritt-Anleitung, um Ihnen den Einstieg zu erleichtern:
+</Section>
+
+<Steps>
+  <Step num="1" title="Charakterwechsel">
+  Lernen Sie, zwischen Charakteren zu wechseln, um die Kombo-Potenzial zu maximieren.
+  </Step>
+  <Step num="2" title="Zielsetzung">
+  Verwenden Sie das Zielssystem, um Feinde zu fixieren und Statuseffekte anzuwenden.
+  </Step>
+  <Step num="3" title="Spezialfähigkeiten">
+  Beherrschen Sie die Spezialfähigkeiten Ihrer Charaktere, um massiven Schaden zu verursachen.
+  </Step>
+</Steps>
+
+<Section icon={Trophy} title="Zukünftige Updates">
+Bleiben Sie mit der neuesten Roadmap von DragonSword: Awakening auf dem Laufenden. Hier ist, was in der nahen Zukunft kommt:
+</Section>
+
+<Callout type="warning" title="Zukünftige Inhalte">
+- **Neue Charaktere**: Vier neue Helden werden in der zweiten Hälfte des Jahres 2026 hinzugefügt.
+- **Neue Quests**: Hero Quests erweitern die Geschichte über die Hauptkampagne hinaus.
+- **Rift-System**: Spieler können dimensionale Portale betreten und in alternativen Realitäten kämpfen.
+</Callout>
+
+<Section icon={Shield} title="Abschlussgedanken">
+DragonSword: Awakening bietet ein reichhaltiges und anspruchsvolles RPG-Erlebnis mit einer Vielzahl von Charakterklassen und Kampfsystemen. Durch die Verwendung dieses Guides sind Sie gut auf dem Weg, das Spiel zu beherrschen und Erfolg zu erlangen.
+</Section>
+
+<FAQ items={[
+  {
+    question: "Wie ist das Kampfsystem des Spiels?",
+    answer: "Das Kampfsystem ist dynamisch und erfordert das Wechseln zwischen Charakteren, um das Kombo-Potenzial zu maximieren und Statuseffekte anzuwenden."
+  },
+  {
+    question: "Kann ich mit Freunden spielen?",
+    answer: "Ja, DragonSword: Awakening bietet optionales Koop für Freunde, um zusammen zu spielen."
+  },
+  {
+    question: "Gibt es Mikrotransaktionen im Spiel?",
+    answer: "Es gibt keine Mikrotransaktionen im Spiel und alle Inhalte sind im Basisspiel enthalten."
+  }
+]} />
